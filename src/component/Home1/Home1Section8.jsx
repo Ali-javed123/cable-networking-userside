@@ -48,7 +48,7 @@ export default function Home1Section8() {
                 </button>
               </h6>
               {/* accordion-collapse */}
-              <div id="flush-collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
+              <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                 <div className="accordion-body">
                   <p>At vero eos et accusamus iusto odio dignissimos ducimus qublanditiis
                     praesentium voluptatum deleniti atque corrupti quos dolores</p>

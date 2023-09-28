@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Home1Secton9() {
+export default function Home1Section9() {
   return (
     <>
     <section className="free-movies">

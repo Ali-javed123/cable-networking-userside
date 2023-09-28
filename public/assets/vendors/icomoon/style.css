@@ -30,7 +30,7 @@
 }
 .icon-film:before {
   content: "\e93b";
-  color: #fa8c0a;
+  color: #ff1749;
 }
 .icon-map-marker-alt:before {
   content: "\e92c";
@@ -66,15 +66,15 @@
 }
 .icon-clock:before {
   content: "\e939";
-  color: #fa8c0a;
+  color: #ff1749;
 }
 .icon-calendar-alt:before {
   content: "\e914";
-  color: #fa8c0a;
+  color: #ff1749;
 }
 .icon-share-icon:before {
   content: "\e92e";
-  color: #fa8c0a;
+  color: #ff1749;
 }
 .icon-facebook-square:before {
   content: "\e926";
@@ -94,11 +94,11 @@
 }
 .icon-left-arrow-two:before {
   content: "\e92a";
-  color: #fa8c0a;
+  color: #ff1749;
 }
 .icon-right-arrow-two:before {
   content: "\e92b";
-  color: #fa8c0a;
+  color: #ff1749;
 }
 .icon-right-arrow:before {
   content: "\e925";
@@ -148,7 +148,7 @@
 }
 .icon-two-icon:before {
   content: "\e91a";
-  color: #fa8c0a;
+  color: #ff1749;
 }
 .icon-main-icon:before {
   content: "\e91b";

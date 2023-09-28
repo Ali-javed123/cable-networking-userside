@@ -100,7 +100,7 @@ export default function Footer() {
       {/* footer-bottom-two-inner */}
       <div className="footer-bottom-two-inner">
         {/* scroll-to-top */}
-        <a href="#" className="scroll-to-target scroll-to-top" id="scroll" style={{display: 'none'}}>
+        <a href="#" className="scroll-to-target scroll-to-top" id="scroll" style={{display: 'block'}}>
           <i className="icon-angle-double-up" />
         </a>
         {/* copyright */}
