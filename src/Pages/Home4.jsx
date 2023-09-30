@@ -32,7 +32,10 @@ export default function Home4() {
           <Home4Section6/>
           <Home4Section7/>
           <Home4Section8/>
-          <Home4Section/>
+          <Home4Section9/>
+          <Home4Section10/>
+          <Home4Section11/>
+          <Home4Section12/>
 
 
         </main>

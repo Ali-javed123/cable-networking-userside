@@ -2951,7 +2951,7 @@ header.sticky .header-menu .navbar-nav>li {
 .swiper-slide img {
     width: 85px;
     height: 85px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 
 .testimonial-slider{
@@ -11079,6 +11079,7 @@ header.sticky .header-menu-two .navbar-nav-two>li {
 .comingsoon-popular-movie-six-img img {
     width: 100%;
     object-fit: cover;
+    height: 50vh;
 }
 
 .popular-movie-six-img-inner {

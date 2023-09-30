@@ -21,7 +21,7 @@ export default function Header() {
             <li><NavLink to="/">Home One</NavLink></li>
               <li><NavLink to="/Home2">Home Two</NavLink></li>
               <li><NavLink to="/Home3">Home Three</NavLink></li>
-              <li><a href="index4.html">Home Four</a></li>
+              <li><NavLink to="/Home4">Home Four</NavLink></li>
               <li>
                 <a className="dropdown-sub-toggle" href="#">Header Styles</a>
                 <ul className="sub-menu-inner">
@@ -36,11 +36,12 @@ export default function Header() {
           <li className="dropdown">
             <a className="nav-link dropdown-toggle" href="#">Pages</a>
             <ul>
-              <li><a href="about.html">About Us</a></li>
+            <li><NavLink to="/AboutUs">About Us</NavLink></li>
+
               <li>
                 <a className="dropdown-sub-toggle" href="#">Movies</a>
                 <ul className="sub-menu-inner">
-                  <li><a href="movies-list.html">Movies List</a></li>
+                  <li><NavLink to="/Movie">Movies List</NavLink></li>
                   <li><a href="movies-details.html">Movies Details</a></li>
                 </ul>
               </li>

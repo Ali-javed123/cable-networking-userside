@@ -1,6 +1,18 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
 
 export default function Home4Section1() {
+  const [show,setshow]=useState(false)
+  useEffect(() => {
+    // Check if the page is being refreshed
+    const isRefreshed = performance.navigation.type === 1;
+
+    // If the page is being refreshed, set the state to true
+    if (isRefreshed) {
+      setshow(true);
+    }
+    console.log("hyss")
+  }, []); // Empty dep
+  console.log("shoe",show)
   return (
     <>
 <section className="banner-four">
@@ -42,7 +54,7 @@ export default function Home4Section1() {
   </div>
   {/* banner-four-bottom */}
   <div className="banner-four-bottom">
-    <div className="banner-four-bottom-slider owl-carousel owl-theme owl-loaded owl-drag">
+    <div style={{display:"none"}} className="banner-four-bottom-slider owl-carousel owl-theme owl-loaded owl-drag">
       <div className="banner-four-bottom-img-1">
         <a href="#">
           <img src="assets/images/resources/banner-four-member-img-1.jpg" alt="banner-four-member-img-1" />
