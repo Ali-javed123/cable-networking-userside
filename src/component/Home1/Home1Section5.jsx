@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function Home1Section5() {
+  const [show,setshow]=useState("")
   return (
     <>
  <section className="popular-movies-two">
@@ -16,27 +17,29 @@ export default function Home1Section5() {
     </div>
     <ul className="nav nav-pills" id="pills-tab" role="tablist">
       <li className="nav-item" role="presentation">
-        <button className="nav-link active" data-bs-toggle="pill" data-bs-target="#pills-showall" type="button" role="tab" aria-controls="pills-showall" aria-selected="true">Show
+        <button className="nav-link active" onClick={()=>setshow("showall")} data-bs-toggle="pill" data-bs-target="#pills-showall" type="button" role="tab" aria-controls="pills-showall" aria-selected="true">Show
           All</button>
       </li>
       <li className="nav-item" role="presentation">
-        <button className="nav-link" data-bs-toggle="pill" data-bs-target="#pills-popular" type="button" role="tab" aria-controls="pills-popular" aria-selected="false">Popular</button>
+        <button className="nav-link" data-bs-toggle="pill"onClick={()=>setshow("popular")} data-bs-target="#pills-popular" type="button" role="tab" aria-controls="pills-popular" aria-selected="false">Popular</button>
       </li>
       <li className="nav-item" role="presentation">
-        <button className="nav-link" data-bs-toggle="pill" data-bs-target="#pills-trailer" type="button" role="tab" aria-controls="pills-trailer" aria-selected="false">Trailer</button>
+        <button className="nav-link" data-bs-toggle="pill" onClick={()=>setshow("trailer")} data-bs-target="#pills-trailer" type="button" role="tab" aria-controls="pills-trailer" aria-selected="false">Trailer</button>
       </li>
       <li className="nav-item" role="presentation">
-        <button className="nav-link" data-bs-toggle="pill" data-bs-target="#pills-drama" type="button" role="tab" aria-controls="pills-drama" aria-selected="false">Drama</button>
+        <button className="nav-link" onClick={()=>setshow("drama")} data-bs-toggle="pill" data-bs-target="#pills-drama" type="button" role="tab" aria-controls="pills-drama" aria-selected="false">Drama</button>
       </li>
       <li className="nav-item" role="presentation">
-        <button className="nav-link" data-bs-toggle="pill" data-bs-target="#pills-horror" type="button" role="tab" aria-controls="pills-horror" aria-selected="false">Horror</button>
+        <button className="nav-link" data-bs-toggle="pill" onClick={()=>setshow("horror")}  data-bs-target="#pills-horror" type="button" role="tab" aria-controls="pills-horror" aria-selected="false">Horror</button>
       </li>
       <li className="nav-item" role="presentation">
-        <button className="nav-link" data-bs-toggle="pill" data-bs-target="#pills-cartoon" type="button" role="tab" aria-controls="pills-cartoon" aria-selected="false">Cartoon</button>
+        <button className="nav-link" data-bs-toggle="pill" onClick={()=>setshow("cartoon")}  data-bs-target="#pills-cartoon" type="button" role="tab" aria-controls="pills-cartoon" aria-selected="false">Cartoon</button>
       </li>
     </ul>
     {/* tab-content */}
     <div className="tab-content" id="pills-tabContent">
+      {show=="showall"?
+
       <div className="tab-pane fade show active" id="pills-showall">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="00ms">
@@ -407,6 +410,7 @@ export default function Home1Section5() {
           </div>
         </div>
       </div>
+      :show=="popular"?
       <div className="tab-pane fade" id="pills-popular">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="400ms">
@@ -592,7 +596,7 @@ export default function Home1Section5() {
             </div>
           </div>
         </div>
-      </div>
+      </div>:show=="trailer"?
       <div className="tab-pane fade" id="pills-trailer">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="000ms">
@@ -778,7 +782,7 @@ export default function Home1Section5() {
             </div>
           </div>
         </div>
-      </div>
+      </div>:show=="drama"?
       <div className="tab-pane fade" id="pills-drama">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="000ms">
@@ -964,7 +968,7 @@ export default function Home1Section5() {
             </div>
           </div>
         </div>
-      </div>
+      </div>:show=="horror"?
       <div className="tab-pane fade" id="pills-horror">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="000ms">
@@ -1194,7 +1198,7 @@ export default function Home1Section5() {
             </div>
           </div>
         </div>
-      </div>
+      </div>:show=="cartoon"?
       <div className="tab-pane fade" id="pills-cartoon">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="000ms">
@@ -1426,7 +1430,8 @@ export default function Home1Section5() {
             </div>
           </div>
         </div>
-      </div>
+      </div>:null
+      }
     </div>
   </div>
 </section>

@@ -22,7 +22,7 @@ export default function Home1() {
 	<div class="custom-cursor-two cursor-two"></div> */}
     <div class="page-wrapper">
       {/* <Scroll/> */}
-        <Navbar/>
+        <Navbar/> 
         <main class="site-main">
             <Home1Section1/>
             <Home1Section2/>

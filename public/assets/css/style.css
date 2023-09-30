@@ -1288,6 +1288,7 @@ header.sticky .header-menu .navbar-nav>li {
 
 .section-title {
     margin-bottom: 20px;
+    text-align: start;
 }
 
 .banner-one .section-title {
@@ -1311,6 +1312,7 @@ header.sticky .header-menu .navbar-nav>li {
 
 .section-main-title {
     margin-bottom: 50px;
+    text-align:start ;
 }
 
 .section-main-title h2 {
@@ -1322,8 +1324,8 @@ header.sticky .header-menu .navbar-nav>li {
 }
 
 .banner-one .section-main-title span {
-    background-color: var(--twonet-primery);
-    color: var(--twonet-text-light);
+    /* background-color: var(--twonet-primery); */
+    color: var(--twonet-primery);
     font-weight: 800;
     display: inline-block;
     line-height: 0.9;
@@ -15113,3 +15115,25 @@ header.sticky .header-menu-two .navbar-nav-two>li {
 
 
 
+
+
+ .swiper-nav-btns button {
+    width: 60px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    width: 75px;
+    /* background-color: hsl(210, 100%, 50%); */
+    background: #d8373e;
+    color: #fff;
+    margin: 0px 0.5rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    transition: all .5s;
+  }
+  
+  .swiper-nav-btns button:hover {
+    background-color: #d8373e;
+    cursor: pointer;
+  }
