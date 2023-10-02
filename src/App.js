@@ -6,6 +6,8 @@ import Home3 from './Pages/Home3';
 import Home4 from './Pages/Home4';
 import AboutUs from './Pages/AboutUs';
 import Movie from './Pages/Movie';
+import MovieDetail from './Pages/MovieDetail';
+import Service from './Pages/Service';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"; 
 function App() {
   return (
@@ -22,7 +24,10 @@ function App() {
         <Route exact path="/Home4" element={< Home4 />}></Route>
         <Route exact path="/AboutUs" element={< AboutUs />}></Route>
         <Route exact path="/Movie" element={< Movie />}></Route>
-       
+        <Route exact path="/MovieDetail" element={< MovieDetail />}></Route>
+        <Route exact path="/Service" element={< Service />}></Route>
+
+        
         
           {/* >>>>Superadmin panel>>>>> */}
 

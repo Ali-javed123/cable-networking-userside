@@ -42,7 +42,7 @@ export default function Header() {
                 <a className="dropdown-sub-toggle" href="#">Movies</a>
                 <ul className="sub-menu-inner">
                   <li><NavLink to="/Movie">Movies List</NavLink></li>
-                  <li><a href="movies-details.html">Movies Details</a></li>
+                  <li><NavLink to="/MovieDetail">Movies Details</NavLink></li>
                 </ul>
               </li>
               <li>
