@@ -68,7 +68,7 @@ export default function Home1Section6() {
           </div>
           {/* joinus-two-btn */}
           <div className="joinus-two-btn">
-            <a href="package.html" className="btn btn-primary-two">Get Started<i className="icon-1" /></a>
+            <a href="#" className="btn btn-primary-two">Get Started<i className="icon-1" /></a>
           </div>
         </div>
       </div>

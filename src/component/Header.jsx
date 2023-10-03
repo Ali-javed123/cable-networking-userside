@@ -19,7 +19,7 @@ export default function Header() {
             <a className="nav-link dropdown-toggle" href="index-2.html">Home </a>
             <ul>
             <li><NavLink to="/">Home One</NavLink></li>
-              <li><NavLink to="/Home2">Home Two</NavLink></li>
+              <li><NavLink to="/Internet">Home Two</NavLink></li>
               <li><NavLink to="/Home3">Home Three</NavLink></li>
               <li><NavLink to="/Home4">Home Four</NavLink></li>
               <li>
@@ -61,27 +61,33 @@ export default function Header() {
           <li className="dropdown">
             <a className="nav-link dropdown-toggle" href="#">Services</a>
             <ul>
-              <li><a href="services.html">Services List</a></li>
-              <li><a href="services-details.html">Services Details</a></li>
+              <li><NavLink to="/Service">Services List</NavLink></li>
+              <li><NavLink to="/ServiceDetail">Services Details</NavLink></li>
             </ul>
           </li>
           <li className="dropdown">
             <a className="nav-link dropdown-toggle" href="#">Shop</a>
             <ul>
-              <li><a href="shop-page.html">Shop Page</a></li>
-              <li><a href="shop-details.html">Shop Details</a></li>
-              <li><a href="checkout.html">Checkout</a></li>
+              <li><NavLink to="/Shop">Shop Page</NavLink></li>
+              <li><NavLink to="/ShopDetail">Shop Details</NavLink></li>
+              <li><NavLink to="/Checkout">Checkout</NavLink></li>
             </ul>
           </li>
-          <li className="dropdown">
+          {/* <li className="dropdown">
             <a className="nav-link dropdown-toggle" href="#">Blog</a>
             <ul>
               <li><a href="blog.html">Blog List</a></li>
               <li><a href="blog-details.html">Blog Details</a></li>
             </ul>
+          </li> */}
+            <li>
+            <NavLink className="text-decoration-none" to="/Internet">Internet</NavLink>
+          </li>
+           <li>
+            <NavLink className="text-decoration-none" to="/">TV</NavLink>
           </li>
           <li>
-            <a className="text-decoration-none" href="contact.html">Contact</a>
+            <NavLink className="text-decoration-none" to="/ContactUs">Contact</NavLink>
           </li>
           <li>
             <div className="menu-search-box">

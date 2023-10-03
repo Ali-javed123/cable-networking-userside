@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom'
 export default function ServiceSection1() {
   return (
     <>
@@ -10,7 +10,7 @@ export default function ServiceSection1() {
     <div className="page-header-inner text-center">
       <h2 className="wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="100ms">Services</h2>
       <ul className="page-header-inner-title list-unstyled wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="300ms">
-        <li className="arrow-right"><a href="index-2.html">Home</a></li>
+        <li className="arrow-right"><NavLink to="/">Home</NavLink></li>
         <li>
           <h4>Services</h4>
         </li>

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom'
 export default function Home2Section6() {
   return (
     <>
@@ -23,7 +23,7 @@ export default function Home2Section6() {
           <div className="text">
             <h4>Free Installations</h4>
             <div>
-              <a href="services.html" className="btn-read-more">Read More</a>
+              <NavLink to="/Service" className="btn-read-more">Read More</NavLink>
             </div>
           </div>
         </div>
@@ -35,7 +35,7 @@ export default function Home2Section6() {
           <div className="text">
             <h4>Fast Installation</h4>
             <div>
-              <a href="services.html" className="btn-read-more">Read More</a>
+              <NavLink to="/Service" className="btn-read-more">Read More</NavLink>
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function Home2Section6() {
           <div className="text">
             <h4>8K Quality Videos</h4>
             <div>
-              <a href="services.html" className="btn-read-more">Read More</a>
+              <NavLink to="/Service" className="btn-read-more">Read More</NavLink>
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@ export default function Home2Section6() {
           <div className="text">
             <h4>Cheap Pricing Plan</h4>
             <div>
-              <a href="services.html" className="btn-read-more">Read More</a>
+              <NavLink to="/Service" className="btn-read-more">Read More</NavLink>
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@ export default function Home2Section6() {
           <div className="text">
             <h4>Satellite TV</h4>
             <div>
-              <a href="services.html" className="btn-read-more">Read More</a>
+              <NavLink to="/Service" className="btn-read-more">Read More</NavLink>
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ export default function Home2Section6() {
           <div className="text">
             <h4>24/7 hr Support</h4>
             <div>
-              <a href="services.html" className="btn-read-more">Read More</a>
+              <NavLink to="/Service" className="btn-read-more">Read More</NavLink>
             </div>
           </div>
         </div>

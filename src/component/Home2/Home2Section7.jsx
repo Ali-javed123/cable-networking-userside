@@ -56,7 +56,7 @@ export default function Home2Section7() {
           </div>
           {/* joinus-one-btn */}
           <div className="theme-btn">
-            <a href="package.html" className="btn btn-bg-primary">Get Started<i className="icon-1" /></a>
+            <a href="#" className="btn btn-bg-primary">Get Started<i className="icon-1" /></a>
           </div>
         </div>
       </div>

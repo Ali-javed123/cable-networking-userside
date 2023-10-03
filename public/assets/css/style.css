@@ -4884,6 +4884,8 @@ header.sticky .header-menu-two .navbar-nav-two>li {
     list-style: none;
     padding: 0;
     margin-bottom: 41px;
+    justify-content: center;
+
 }
 
 .banner-two-info .banner-two-info-bottom li+li {
@@ -4980,6 +4982,7 @@ header.sticky .header-menu-two .navbar-nav-two>li {
 
 .movies-video-one .movies-video-one-img img {
     width: 100%;
+    height: 35vh;
 }
 
 .movies-video-one-info .movies-video-one-img {
@@ -9968,6 +9971,7 @@ header.sticky .header-menu-two .navbar-nav-two>li {
 .blog-four-img img {
     width: 100%;
     transition: all 0.3s;
+    height: 35vh;
 }
 
 .blog-four-img .blog-four-img-inner {

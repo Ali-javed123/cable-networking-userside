@@ -1,5 +1,13 @@
 import React from 'react'
+import { Swiper, SwiperSlide } from "swiper/react";
 
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import { SwiperButtun } from '../SwiperButtun';
+import { Link } from 'react-router-dom';
+// import required modules
+import { Autoplay, Pagination ,Navigation,Scrollbar, A11y} from "swiper/modules";
 export default function Home4Section11() {
   return (
     <>
@@ -33,8 +41,23 @@ export default function Home4Section11() {
       </div>
       <div className="col-xl-8 col-lg-12 col-md-12 col-sm-12">
         {/* blog-four-slider */}
-        <div className="blog-four-slider owl-carousel owl-theme owl-loaded owl-drag">
+        <Swiper breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 5,
+          },
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: 5,
+          },
+        }} loop   modules={[Autoplay,Navigation]} className=" owl-carousel owl-theme owl-loaded owl-drag">
           {/* blog-four-info */}
+<SwiperSlide>
+
           <div className="blog-four-single wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="100ms">
             {/* blog-four-details */}
             <div className="blog-four-single-title">
@@ -42,7 +65,7 @@ export default function Home4Section11() {
                 <span>Movie</span>
               </div>
               <h4>
-                <a href="blog-details.html">
+                <a href="#">
                   Meet Success The Smashing Book By Addy Osmanie
                 </a>
               </h4>
@@ -58,15 +81,17 @@ export default function Home4Section11() {
             </div>
             <ul>
               <li>
-                <a className="blog-single-name" href="blog-details.html"><i className="icon-man" />Johnny M. Kolb</a>
+                <Link className="blog-single-name" to="#"><i className="icon-man" />Johnny M. Kolb</Link>
               </li>
               <li>
                 {/* btn-read-more */}
-                <a href="blog.html" className="btn-read-more">Read More</a>
+                <Link to="#" className="btn-read-more">Read More</Link>
               </li>
             </ul>
           </div>
-          {/* blog-four-info */}
+</SwiperSlide>
+<SwiperSlide>
+
           <div className="blog-four-single wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="300ms">
             {/* blog-four-details */}
             <div className="blog-four-single-title">
@@ -74,7 +99,7 @@ export default function Home4Section11() {
                 <span>Internet</span>
               </div>
               <h4>
-                <a href="blog-details.html">
+                <a href="#">
                   Practical Design Guidelines For Beginner Designers
                 </a>
               </h4>
@@ -90,14 +115,17 @@ export default function Home4Section11() {
             </div>
             <ul>
               <li>
-                <a className="blog-single-name" href="blog-details.html"><i className="icon-man" />Harold C. Duncan</a>
+                <Link className="blog-single-name" to="#"><i className="icon-man" />Harold C. Duncan</Link>
               </li>
               <li>
                 {/* btn-read-more */}
-                <a href="blog.html" className="btn-read-more">Read More</a>
+                <Link to="#" className="btn-read-more">Read More</Link>
               </li>
             </ul>
           </div>
+</SwiperSlide>
+<SwiperSlide>
+
           <div className="blog-four-single">
             {/* blog-four-details */}
             <div className="blog-four-single-title">
@@ -105,7 +133,7 @@ export default function Home4Section11() {
                 <span>Internet</span>
               </div>
               <h4>
-                <a href="blog-details.html">
+                <a href="#">
                   Practical Design Guidelines For Beginner Designers
                 </a>
               </h4>
@@ -121,15 +149,18 @@ export default function Home4Section11() {
             </div>
             <ul>
               <li>
-                <a className="blog-single-name" href="blog-details.html"><i className="icon-man" />Harold C. Duncan</a>
+                <Link className="blog-single-name" to="#"><i className="icon-man" />Harold C. Duncan</Link>
               </li>
               <li>
                 {/* btn-read-more */}
-                <a href="blog.html" className="btn-read-more">Read More</a>
+                <Link to="#" className="btn-read-more">Read More</Link>
               </li>
             </ul>
           </div>
-        </div>
+</SwiperSlide>
+<SwiperButtun/>
+          {/* blog-four-info */}
+        </Swiper>
       </div>
     </div>
   </div>

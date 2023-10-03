@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom'
 export default function Home4Section8() {
   return (
     <>
@@ -58,7 +58,7 @@ export default function Home4Section8() {
           </ul>
           {/* theme-btn */}
           <div className="theme-btn">
-            <a href="about.html" className="btn btn-bg-primary">Get Started<i className="icon-1" /></a>
+            <NavLink to="/AboutUs" className="btn btn-bg-primary">Get Started<i className="icon-1" /></NavLink>
           </div>
         </div>
       </div>

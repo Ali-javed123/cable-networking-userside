@@ -45,7 +45,7 @@ export default function Home4Section7() {
           </div>
           {/* box-btn */}
           <div className="box-btn">
-            <a href="package.html" className="btn btn-transparent">Choose Package<i className="icon-1" /></a>
+            <a href="#" className="btn btn-transparent">Choose Package<i className="icon-1" /></a>
           </div>
           {/* box-item-list */}
           <ul className="box-item-list">
@@ -77,7 +77,7 @@ export default function Home4Section7() {
           </div>
           {/* box-btn */}
           <div className="box-btn">
-            <a href="package.html" className="btn btn-transparent">Choose Package<i className="icon-1" /></a>
+            <a href="#" className="btn btn-transparent">Choose Package<i className="icon-1" /></a>
           </div>
           {/* box-item-list */}
           <ul className="box-item-list">
@@ -109,7 +109,7 @@ export default function Home4Section7() {
           </div>
           {/* box-btn */}
           <div className="box-btn">
-            <a href="package.html" className="btn btn-transparent">Choose Package<i className="icon-1" /></a>
+            <a href="#" className="btn btn-transparent">Choose Package<i className="icon-1" /></a>
           </div>
           {/* box-item-list */}
           <ul className="box-item-list">

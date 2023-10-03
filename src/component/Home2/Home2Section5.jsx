@@ -36,7 +36,7 @@ export default function Home2Section5() {
                 Internet &amp; Live TV Series
               </p>
               <div className="video-one-content-info-btn">
-                <a href="package.html" className="btn-read-more">Let’s Talk Us</a>
+                <a href="#" className="btn-read-more">Let’s Talk Us</a>
               </div>
             </div>
           </div>

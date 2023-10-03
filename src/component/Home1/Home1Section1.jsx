@@ -7,6 +7,7 @@ export default function Home1Section1() {
 <section className="banner-two">
   {/* banner-two-shape */}
   <div className="banner-two-shape" />
+  
   <div className="container">
     <div className="row align-items-center">
       <div className="col-lg-8 col-md-9 col-sm-12 wow fadeInLeft animated" data-wow-duration="1500ms" data-wow-delay="00ms">
@@ -18,12 +19,10 @@ export default function Home1Section1() {
             <li className="imdb">IMDb</li>
             <li className="reat">8.5</li>
           </ul>
-          <h1>Adventure Way’s</h1>
+          <h5 className='text-light'>COMWAVE TV</h5>
+          <h2  className='text-light'><span className='section-title-inner '>Live TV</span> at home through <br/>the Amazon Fire Stick </h2>
           {/* banner-two-info-detail */}
-          <p className="banner-two-info-detail">Sorem ipsum dolor sit amet consectetur. Consequat
-            laoreet amet neque
-            condimentum sit vitae. <a href="#" className="u-line">Vulputate curabitur vitae</a>
-            vestibulum
+          <p className="banner-two-info-detail text-center ">Choose the TV Package with all of your favourite channels. Use the Amazon Fire Stick to watch through the ComwaveTV App on your Smart TV.
           </p>
           {/* banner-two-info-detail-two */}
           <p className="banner-two-info-detail-two"><span>Cast</span> : Robert F. Bravo, John M.
@@ -47,11 +46,11 @@ export default function Home1Section1() {
         <div className="banner-two-video-btn">
           {/* video-one-btn-shape */}
           <div className="video-btn">
-            {/* video-popup */}
             <a href="https://www.youtube.com/watch?v=rzfmZC3kg3M" className="video-popup">
               <i className="fas fa-play" />
             </a>
           </div>
+          {/* <img src="assets/images/TV-New-1.png" alt="" /> */}
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-bootstrap'
 export default function Home2Section2() {
   return (
     <>
@@ -31,7 +31,7 @@ export default function Home2Section2() {
           <p>Sit amet consectetur. Pellentesque vel cursus magna proin enim odio ipsu vitae.
             pretium ultrices odio eu at cras.</p>
           <div className="services-one-btn">
-            <a href="services.html" className="btn-arrow-right">Read More</a>
+            <NavLink to="/Service" className="btn-arrow-right">Read More</NavLink>
           </div>
         </div>
       </div>
@@ -45,7 +45,7 @@ export default function Home2Section2() {
           <p>Sit amet consectetur. Pellentesque vel cursus magna proin enim odio ipsu vitae.
             pretium ultrices odio eu at cras.</p>
           <div className="services-one-btn">
-            <a href="services.html" className="btn-arrow-right">Read More</a>
+            <NavLink to="/Service" className="btn-arrow-right">Read More</NavLink>
           </div>
         </div>
       </div>
@@ -59,7 +59,7 @@ export default function Home2Section2() {
           <p>Sit amet consectetur. Pellentesque vel cursus magna proin enim odio ipsu vitae.
             pretium ultrices odio eu at cras.</p>
           <div className="services-one-btn">
-            <a href="services.html" className="btn-arrow-right">Read More</a>
+            <NavLink to="/Service" className="btn-arrow-right">Read More</NavLink>
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@ export default function Home2Section2() {
     {/* services-one-bottom */}
     <div className="services-one-bottom text-center">
       <p>Need Any Consultation's For New Services?
-        <a href="contact.html">Contact Us</a>
+        <NavLink to="/ContactUs">Contact Us</NavLink>
       </p>
     </div>
   </div>

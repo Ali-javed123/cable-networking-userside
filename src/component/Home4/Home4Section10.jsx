@@ -1,5 +1,13 @@
 import React from 'react'
+import { Swiper, SwiperSlide } from "swiper/react";
 
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import { SwiperButtun } from '../SwiperButtun';
+import { Link } from 'react-router-dom';
+// import required modules
+import { Autoplay, Pagination ,Navigation,Scrollbar, A11y} from "swiper/modules";
 export default function Home4Section10() {
   return (
     <>
@@ -22,8 +30,24 @@ export default function Home4Section10() {
     {/* testimonial-four-tabs */}
     <div className="testimonial-four-tabs">
       {/* owl-carousel */}
-      <div className="owl-carousel owl-theme">
+      <Swiper breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 5,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 5,
+          },
+        }} loop   modules={[Autoplay,Navigation]} className="">
         {/* testimonial-four-info */}
+        {/* owl-carousel owl-theme */}
+        <SwiperSlide>
+
         <div className="testimonial-four-info wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="100ms">
           <div className="testimonial-four-info-shape-1">
             <svg viewBox="0 0 370 93" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -61,7 +85,11 @@ export default function Home4Section10() {
             </li>
           </ul>
         </div>
+        </SwiperSlide>
+        
         {/* testimonial-four-info */}
+        <SwiperSlide>
+
         <div className="testimonial-four-info wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="200ms">
           <div className="testimonial-four-info-shape-1">
             <svg viewBox="0 0 370 93" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -99,7 +127,9 @@ export default function Home4Section10() {
             </li>
           </ul>
         </div>
-        {/* testimonial-four-info */}
+        </SwiperSlide>
+        <SwiperSlide>
+
         <div className="testimonial-four-info wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="300ms">
           <div className="testimonial-four-info-shape-1">
             <svg viewBox="0 0 370 93" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -137,7 +167,8 @@ export default function Home4Section10() {
             </li>
           </ul>
         </div>
-        {/* testimonial-four-info */}
+        </SwiperSlide>
+        <SwiperSlide>
         <div className="testimonial-four-info wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="400ms">
           <div className="testimonial-four-info-shape-1">
             <svg viewBox="0 0 370 93" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -175,7 +206,10 @@ export default function Home4Section10() {
             </li>
           </ul>
         </div>
-        {/* testimonial-four-info */}
+
+        </SwiperSlide>
+        <SwiperSlide>
+
         <div className="testimonial-four-info wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="500ms">
           <div className="testimonial-four-info-shape-1">
             <svg viewBox="0 0 370 93" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -213,7 +247,9 @@ export default function Home4Section10() {
             </li>
           </ul>
         </div>
-        {/* testimonial-four-info */}
+        </SwiperSlide>
+        <SwiperSlide>
+
         <div className="testimonial-four-info wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="600ms">
           <div className="testimonial-four-info-shape-1">
             <svg viewBox="0 0 370 93" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -251,7 +287,9 @@ export default function Home4Section10() {
             </li>
           </ul>
         </div>
-        {/* testimonial-four-info */}
+        </SwiperSlide>
+        <SwiperSlide>
+
         <div className="testimonial-four-info wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="700ms">
           <div className="testimonial-four-info-shape-1">
             <svg viewBox="0 0 370 93" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -289,7 +327,9 @@ export default function Home4Section10() {
             </li>
           </ul>
         </div>
-        {/* testimonial-four-info */}
+        </SwiperSlide>
+        <SwiperSlide>
+
         <div className="testimonial-four-info wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="800ms">
           <div className="testimonial-four-info-shape-1">
             <svg viewBox="0 0 370 93" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -327,7 +367,9 @@ export default function Home4Section10() {
             </li>
           </ul>
         </div>
-        {/* testimonial-four-info */}
+        </SwiperSlide>
+        <SwiperSlide>
+
         <div className="testimonial-four-info wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="900ms">
           <div className="testimonial-four-info-shape-1">
             <svg viewBox="0 0 370 93" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -365,7 +407,9 @@ export default function Home4Section10() {
             </li>
           </ul>
         </div>
-        {/* testimonial-four-info */}
+        </SwiperSlide>
+        <SwiperSlide>
+
         <div className="testimonial-four-info wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="1000ms">
           <div className="testimonial-four-info-shape-1">
             <svg viewBox="0 0 370 93" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -403,7 +447,9 @@ export default function Home4Section10() {
             </li>
           </ul>
         </div>
-        {/* testimonial-four-info */}
+        </SwiperSlide>
+        <SwiperSlide>
+
         <div className="testimonial-four-info wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="1100ms">
           <div className="testimonial-four-info-shape-1">
             <svg viewBox="0 0 370 93" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -441,7 +487,9 @@ export default function Home4Section10() {
             </li>
           </ul>
         </div>
-        {/* testimonial-four-info */}
+        </SwiperSlide>
+        <SwiperSlide>
+
         <div className="testimonial-four-info wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="1200ms">
           <div className="testimonial-four-info-shape-1">
             <svg viewBox="0 0 370 93" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -479,7 +527,19 @@ export default function Home4Section10() {
             </li>
           </ul>
         </div>
-      </div>
+        </SwiperSlide>
+        <SwiperButtun/>
+        {/* testimonial-four-info */}
+        {/* testimonial-four-info */}
+        {/* testimonial-four-info */}
+        {/* testimonial-four-info */}
+        {/* testimonial-four-info */}
+        {/* testimonial-four-info */}
+        {/* testimonial-four-info */}
+        {/* testimonial-four-info */}
+        {/* testimonial-four-info */}
+        {/* testimonial-four-info */}
+      </Swiper>
     </div>
   </div>
 </section>

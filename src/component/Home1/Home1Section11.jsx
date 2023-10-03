@@ -35,17 +35,17 @@ export default function Home1Section11() {
               <span>Movie</span>
             </div>
             <h4>
-              <a href="blog-details.html">
+              <a href="#">
                 Meet Success The Smashing Book By Addy Osmanie
               </a>
             </h4>
             <ul>
               <li>
-                <a className="blog-two-single-name" href="blog-details.html"><i className="icon-man" />Johnny M. Kolb</a>
+                <a className="blog-two-single-name" href="#"><i className="icon-man" />Johnny M. Kolb</a>
               </li>
               <li>
                 {/* btn-read-more */}
-                <a href="blog.html" className="btn-read-more">Read More</a>
+                <a href="#" className="btn-read-more">Read More</a>
               </li>
             </ul>
           </div>
@@ -75,11 +75,11 @@ export default function Home1Section11() {
             </h4>
             <ul>
               <li>
-                <a className="blog-two-single-name" href="blog-details.html"><i className="icon-man" />Harold C. Duncan</a>
+                <a className="blog-two-single-name" href="#"><i className="icon-man" />Harold C. Duncan</a>
               </li>
               <li>
                 {/* btn-read-more */}
-                <a href="blog.html" className="btn-read-more">Read More</a>
+                <a href="#" className="btn-read-more">Read More</a>
               </li>
             </ul>
           </div>
@@ -103,17 +103,17 @@ export default function Home1Section11() {
               <span>Movie</span>
             </div>
             <h4>
-              <a href="blog-details.html">
+              <a href="#">
                 Design Patterns Better Way Collaborate System
               </a>
             </h4>
             <ul>
               <li>
-                <a className="blog-two-single-name" href="blog-details.html"><i className="icon-man" />Ronnie J. Durante</a>
+                <a className="blog-two-single-name" href="#"><i className="icon-man" />Ronnie J. Durante</a>
               </li>
               <li>
                 {/* btn-read-more */}
-                <a href="blog.html" className="btn-read-more">Read More</a>
+                <a href="#" className="btn-read-more">Read More</a>
               </li>
             </ul>
           </div>

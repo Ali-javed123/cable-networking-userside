@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom'
 export default function AboutUsSection6() {
   return (
     <>
@@ -37,7 +37,7 @@ export default function AboutUsSection6() {
           </ul>
           {/* about-five-btn */}
           <div className="about-five-btn">
-            <a href="about.html" className="btn btn-bg-primary">Learn More Us<i className="icon-1" /></a>
+            <NavLink to="/AboutUs" className="btn btn-bg-primary">Learn More Us<i className="icon-1" /></NavLink>
           </div>
         </div>
       </div>

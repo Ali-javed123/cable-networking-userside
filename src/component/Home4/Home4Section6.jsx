@@ -42,7 +42,7 @@ export default function Home4Section6() {
           </div>
           {/* joinus-four-btn */}
           <div className="theme-btn">
-            <a href="package.html" className="btn btn-bg-white">Get Started<i className="icon-1" /></a>
+            <a href="#" className="btn btn-bg-white">Get Started<i className="icon-1" /></a>
           </div>
         </div>
       </div>

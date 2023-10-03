@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom'
 export default function Home1Section9() {
   return (
     <>
@@ -21,7 +21,7 @@ export default function Home1Section9() {
             </div>
             {/* joinus-two-btn */}
             <div className="joinus-two-btn">
-              <a href="movies-list.html" className="btn btn-primary-two">Get Started<i className="icon-1" /></a>
+              <NavLink to="/Movie" className="btn btn-primary-two">Get Started<i className="icon-1" /></NavLink>
             </div>
           </div>
         </div>

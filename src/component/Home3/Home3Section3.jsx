@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-bootstrap'
 export default function Home3Section3() {
   return (
     <>
@@ -49,7 +49,7 @@ export default function Home3Section3() {
           </ul>
           {/* about-three-btn */}
           <div className="about-three-btn">
-            <a href="about.html" className="btn btn-bg-primary">Learn More Us<i className="icon-1" /></a>
+            <NavLink to="/AboutUs" className="btn btn-bg-primary">Learn More Us<i className="icon-1" /></NavLink>
           </div>
         </div>
       </div>

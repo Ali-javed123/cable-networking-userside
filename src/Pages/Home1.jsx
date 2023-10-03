@@ -7,11 +7,13 @@ import Home1Section4 from '../component/Home1/Home1Section4'
 import Home1Section5 from '../component/Home1/Home1Section5'
 import Home1Section6 from '../component/Home1/Home1Section6'
 // import Home1Section7 from '../component/Home1/Home1Section7'
+import Home1Section13 from '../component/Home1/Home1Section13'
 import Home1Section8 from '../component/Home1/Home1Section8'
 import Home1Secton9 from '../component/Home1/Home1Section9'
 import Home1Section10 from '../component/Home1/Home1Section10'
 import Home1Section11 from '../component/Home1/Home1Section11'
 import Home1Section12 from '../component/Home1/Home1Section12'
+
 import NavbarMobile from '../component/NavbarMobile'
 import Footer from '../component/Footer'
 import Scroll from '../component/Scroll'
@@ -25,6 +27,7 @@ export default function Home1() {
         <Navbar/> 
         <main class="site-main">
             <Home1Section1/>
+            <Home1Section13/>
             <Home1Section2/>
             <Home1Section3/>
             <Home1Section4/>

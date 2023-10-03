@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom'
 export default function Home3Section2() {
   return (
     <>
@@ -45,7 +45,7 @@ export default function Home3Section2() {
           <p>Sed perspiciatis unde omnisy iste natus error sit voluptatem
             accusanti dolore audante</p>
           <div className="services-three-btn">
-            <a href="services.html" className="btn-read-more">Read More</a>
+            <NavLink to="/Service" className="btn-read-more">Read More</NavLink>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@ export default function Home3Section2() {
           <p>We denounce with righteous indignation dislike who are soc
             beguiled and demoralized</p>
           <div className="services-three-btn">
-            <a href="services.html" className="btn-read-more">Read More</a>
+            <NavLink to="/Service" className="btn-read-more">Read More</NavLink>
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@ export default function Home3Section2() {
           <p>At vero eos et accusam odio dignissimos ducimu blanditiic
             praesentium voluptatum</p>
           <div className="services-three-btn">
-            <a href="services.html" className="btn-read-more">Read More</a>
+            <NavLink to="/Service" className="btn-read-more">Read More</NavLink>
           </div>
         </div>
       </div>
@@ -81,7 +81,7 @@ export default function Home3Section2() {
           <p>To take trivial example which of us ever undertake laborious
             physical exercise obtain</p>
           <div className="services-three-btn">
-            <a href="services.html" className="btn-read-more">Read More</a>
+            <NavLink to="/Service" className="btn-read-more">Read More</NavLink>
           </div>
         </div>
       </div>

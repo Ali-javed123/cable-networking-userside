@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom'
 export default function MovieDetailSection3() {
   return (
     <>
@@ -8,7 +8,7 @@ export default function MovieDetailSection3() {
     {/* section-main-title */}
     <div className="section-main-title">
       <h3>Related Movies</h3>
-      <a href="movies-list.html" className="btn-read-more ">See More</a>
+      <NavLink to="/Movie" className="btn-read-more ">See More</NavLink>
     </div>
     <div className="row"> 
       <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="100ms">

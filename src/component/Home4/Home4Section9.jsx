@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export default function Home4Section9() {
   return (
@@ -24,7 +25,7 @@ export default function Home4Section9() {
         <div className="col-lg-4 wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="200ms">
           {/* popular-movie-one-btn */}
           <div className="theme-btn">
-            <a href="movies-list.html" className="btn btn-bg-white">View All Moviews<i className="icon-1" /></a>
+            <NavLink to="/Movie" className="btn btn-bg-white">View All Moviews<i className="icon-1" /></NavLink>
           </div>
         </div>
       </div>

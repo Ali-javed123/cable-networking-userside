@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-bootstrap'
 export default function Home3Section4() {
   return (
     <>
@@ -52,7 +52,7 @@ export default function Home3Section4() {
           </ul>
           {/* box-price */}
           {/* btn-transparent */}
-          <a href="package.html" className="btn btn-transparent">Choose Package<i className="icon-1" /></a>
+          <a href="#" className="btn btn-transparent">Choose Package<i className="icon-1" /></a>
         </div>
       </div>
       <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="150ms">
@@ -79,7 +79,7 @@ export default function Home3Section4() {
           </ul>
           {/* box-price */}
           {/* btn-transparent */}
-          <a href="package.html" className="btn btn-transparent">Choose Package<i className="icon-1" /></a>
+          <a href="#" className="btn btn-transparent">Choose Package<i className="icon-1" /></a>
         </div>
       </div>
       <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="300ms">
@@ -106,7 +106,7 @@ export default function Home3Section4() {
           </ul>
           {/* box-price */}
           {/* btn-transparent */}
-          <a href="package.html" className="btn btn-transparent">Choose Package<i className="icon-1" /></a>
+          <a href="#" className="btn btn-transparent">Choose Package<i className="icon-1" /></a>
         </div>
       </div>
     </div>

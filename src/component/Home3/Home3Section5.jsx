@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom'
 export default function Home3Section5() {
   return (
     <>
@@ -28,7 +28,7 @@ export default function Home3Section5() {
           </div>
           {/* free-movies-three-btn */}
           <div className="free-movies-three-btn">
-            <a href="movies-list.html" className="btn btn-bg-primary">Get Started<i className="icon-1" /></a>
+            <NavLink to="/Movie" className="btn btn-bg-primary">Get Started<i className="icon-1" /></NavLink>
           </div>
         </div>
       </div>

@@ -49,7 +49,7 @@ export default function AboutUsSection5() {
             </ul>
           </div>
           <div className="team-five-content text-center">
-            <h5><a href="team-details.html">Manuel J. Lake</a></h5>
+            <h5><a href="#">Manuel J. Lake</a></h5>
             <p>CEO &amp; Founder</p>
           </div>
         </div>
@@ -86,7 +86,7 @@ export default function AboutUsSection5() {
             </ul>
           </div>
           <div className="team-five-content text-center">
-            <h5><a href="team-details.html">Jack N. Markham</a></h5>
+            <h5><a href="#">Jack N. Markham</a></h5>
             <p>Web Designer</p>
           </div>
         </div>
@@ -123,7 +123,7 @@ export default function AboutUsSection5() {
             </ul>
           </div>
           <div className="team-five-content text-center">
-            <h5><a href="team-details.html">Spencer S. Fuchs</a></h5>
+            <h5><a href="#">Spencer S. Fuchs</a></h5>
             <p>Senior Manager</p>
           </div>
         </div>
@@ -160,7 +160,7 @@ export default function AboutUsSection5() {
             </ul>
           </div>
           <div className="team-five-content text-center">
-            <h5><a href="team-details.html">Michael M. Thomas</a></h5>
+            <h5><a href="#">Michael M. Thomas</a></h5>
             <p>Jr Consultant</p>
           </div>
         </div>

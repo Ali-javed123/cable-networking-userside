@@ -1,5 +1,13 @@
 import React from 'react'
+import { Swiper, SwiperSlide } from "swiper/react";
 
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import { SwiperButtun } from '../SwiperButtun';
+import { Link } from 'react-router-dom';
+// import required modules
+import { Autoplay, Pagination ,Navigation,Scrollbar, A11y} from "swiper/modules";
 export default function Home4Section5() {
   return (
     <>
@@ -18,7 +26,22 @@ export default function Home4Section5() {
         array Package</h2>
     </div>
     {/* package-four-slider */}
-    <div className="package-four-slider owl-carousel owl-theme">
+    <Swiper breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+        }} loop   modules={[Pagination,Autoplay,Navigation,Pagination]} className=" owl-carousel owl-theme">
+          <SwiperSlide>
+
       <div className="package-four-single wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="00ms">
         {/* package-four-title */}
         <div className="package-four-title">
@@ -57,7 +80,9 @@ export default function Home4Section5() {
           </div>
         </div>
       </div>
-      {/* package-four-single */}
+          </SwiperSlide>
+          <SwiperSlide>
+
       <div className="package-four-single wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="200ms">
         <div className="package-four-title">
           <i className="icon-arrow-up-right-two" />
@@ -95,7 +120,9 @@ export default function Home4Section5() {
           </div>
         </div>
       </div>
-      {/* package-four-single */}
+          </SwiperSlide>
+          <SwiperSlide>
+
       <div className="package-four-single wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="400ms">
         <div className="package-four-title">
           <i className="icon-arrow-up-right-two" />
@@ -133,7 +160,12 @@ export default function Home4Section5() {
           </div>
         </div>
       </div>
-    </div>
+          </SwiperSlide>
+          <SwiperButtun/>
+
+      {/* package-four-single */}
+      {/* package-four-single */}
+    </Swiper>
   </div>
 </section>
 

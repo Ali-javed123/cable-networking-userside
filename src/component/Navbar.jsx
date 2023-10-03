@@ -20,7 +20,7 @@ export default function Navbar() {
             <a className="nav-link dropdown-toggle" href="#">Home </a>
             <ul>
               <li><NavLink to="/">Home One</NavLink></li>
-              <li><NavLink to="/Home2">Home Two</NavLink></li>
+              <li><NavLink to="/Internet">Home Two</NavLink></li>
               <li><NavLink to="/Home3">Home Three</NavLink></li>
               <li><NavLink to="/Home4">Home Four</NavLink></li>
               <li>

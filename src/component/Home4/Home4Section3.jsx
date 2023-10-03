@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-bootstrap'
 export default function Home4Section3() {
   return (
     <>
@@ -23,7 +23,7 @@ export default function Home4Section3() {
           <i className="flaticon-fiber" />
           <p>Sit amet consectetur ellentesvel seen cursus magna proin vitae.</p>
           <div className="services-four-btn">
-            <a href="services.html" className="btn-read-more">Read More</a>
+            <NavLink to="Service" className="btn-read-more">Read More</NavLink>
           </div>
         </div>
       </div>
@@ -34,7 +34,7 @@ export default function Home4Section3() {
           <i className="flaticon-tv" />
           <p>Sit amet consectetur ellentesvel seen cursus magna proin vitae.</p>
           <div className="services-four-btn">
-            <a href="services.html" className="btn-read-more">Read More</a>
+            <NavLink to="Service" className="btn-read-more">Read More</NavLink>
           </div>
         </div>
       </div>
@@ -45,7 +45,7 @@ export default function Home4Section3() {
           <i className="flaticon-energy-management" />
           <p>Sit amet consectetur ellentesvel seen cursus magna proin vitae.</p>
           <div className="services-four-btn">
-            <a href="services.html" className="btn-read-more">Read More</a>
+            <NavLink to="Service" className="btn-read-more">Read More</NavLink>
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@ export default function Home4Section3() {
     {/* services-four-bottom */}
     <div className="services-four-bottom text-center">
       <p>Need Any Consultation's For New Services?
-        <a href="contact.html">Contact Us</a>
+        <NavLink to="/ContactUs">Contact Us</NavLink>
       </p>
     </div>
   </div>

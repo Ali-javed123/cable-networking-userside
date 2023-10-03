@@ -32,7 +32,7 @@ export default function ServiceSection5() {
             </li>
           </ul>
           <div className="services-faq-left-btn">
-            <a href="faq.html" className="btn btn-bg-primary">Learn More Us<i className="icon-1" /></a>
+            <a href="#" className="btn btn-bg-primary">Learn More Us<i className="icon-1" /></a>
           </div>
         </div>
       </div>

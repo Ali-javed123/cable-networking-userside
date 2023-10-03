@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom'
 export default function ServiceSection3() {
   return (
     <>
@@ -62,7 +62,7 @@ export default function ServiceSection3() {
           </div>
           {/* services-five-btn */}
           <div className="theme-btn">
-            <a href="package.html" className="btn btn-bg-primary">Get Started<i className="icon-1" /></a>
+            <a href="#" className="btn btn-bg-primary">Get Started<i className="icon-1" /></a>
           </div>
         </div>
       </div>

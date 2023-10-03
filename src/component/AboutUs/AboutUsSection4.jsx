@@ -38,7 +38,7 @@ export default function AboutUsSection4() {
       {/* joinus-five-right */}
       <div className="joinus-five-right">
         <div className="joinus-five-right-btn wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="200ms">
-          <a href="package.html" className="btn btn-bg-primary">Get Started<i className="icon-1" /></a>
+          <a href="#" className="btn btn-bg-primary">Get Started<i className="icon-1" /></a>
         </div>
       </div>
     </div>

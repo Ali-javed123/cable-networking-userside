@@ -50,7 +50,7 @@ export default function Home2Section8() {
           </div>
           {/* box-btn */}
           <div className="box-btn">
-            <a href="package.html" className="btn btn-small-primary btn-bg-white">Choose Package<i className="icon-1" /></a>
+            <a href="#" className="btn btn-small-primary btn-bg-white">Choose Package<i className="icon-1" /></a>
           </div>
         </div>
       </div>
@@ -79,7 +79,7 @@ export default function Home2Section8() {
           </div>
           {/* box-btn */}
           <div className="box-btn">
-            <a href="package.html" className="btn btn-small-primary btn-bg-white">Choose Package<i className="icon-1" /></a>
+            <a href="#" className="btn btn-small-primary btn-bg-white">Choose Package<i className="icon-1" /></a>
           </div>
         </div>
       </div>
@@ -108,7 +108,7 @@ export default function Home2Section8() {
           </div>
           {/* box-btn */}
           <div className="box-btn">
-            <a href="package.html" className="btn btn-small-primary btn-bg-white">Choose Package<i className="icon-1" /></a>
+            <a href="#" className="btn btn-small-primary btn-bg-white">Choose Package<i className="icon-1" /></a>
           </div>
         </div>
       </div>
@@ -137,7 +137,7 @@ export default function Home2Section8() {
           </div>
           {/* box-btn */}
           <div className="box-btn">
-            <a href="package.html" className="btn btn-small-primary btn-bg-white">Choose Package<i className="icon-1" /></a>
+            <a href="#" className="btn btn-small-primary btn-bg-white">Choose Package<i className="icon-1" /></a>
           </div>
         </div>
       </div>

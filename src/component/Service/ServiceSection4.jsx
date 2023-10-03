@@ -1,5 +1,5 @@
     import React from 'react'
-    
+    import { NavLink } from 'react-router-dom'
     export default function ServiceSection4() {
       return (
         <>
@@ -55,7 +55,7 @@
     {/* services-six-bottom */}
     <div className="services-six-bottom text-center">
       <p>Need Any Consultation's For New Services?
-        <a href="contact.html">Contact Us</a>
+        <NavLink to="/ContactUs">Contact Us</NavLink>
       </p>
     </div>
   </div>

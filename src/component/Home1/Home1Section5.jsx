@@ -38,9 +38,9 @@ export default function Home1Section5() {
     </ul>
     {/* tab-content */}
     <div className="tab-content" id="pills-tabContent">
-      {show=="showall"?
+     
 
-      <div className="tab-pane fade show active" id="pills-showall">
+      <div className={show=="showall"?"tab-pane fade show active":"tab-pane fade"} id="pills-showall">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="00ms">
             {/* popular-movies-two-box */}
@@ -410,8 +410,8 @@ export default function Home1Section5() {
           </div>
         </div>
       </div>
-      :show=="popular"?
-      <div className="tab-pane fade" id="pills-popular">
+     
+      <div className={show=="popular"?"tab-pane active fade show":"tab-pane fade"} id="pills-popular">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="400ms">
             {/* popular-movies-two-box */}
@@ -596,8 +596,8 @@ export default function Home1Section5() {
             </div>
           </div>
         </div>
-      </div>:show=="trailer"?
-      <div className="tab-pane fade" id="pills-trailer">
+      </div>
+      <div className={show=="trailer"?"tab-pane active fade show":"tab-pane fade"} id="pills-trailer">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="000ms">
             {/* popular-movies-two-box */}
@@ -782,8 +782,8 @@ export default function Home1Section5() {
             </div>
           </div>
         </div>
-      </div>:show=="drama"?
-      <div className="tab-pane fade" id="pills-drama">
+      </div>
+      <div className={show=="drama"?"tab-pane active fade show":"tab-pane fade"} id="pills-drama">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="000ms">
             {/* popular-movies-two-box */}
@@ -968,8 +968,8 @@ export default function Home1Section5() {
             </div>
           </div>
         </div>
-      </div>:show=="horror"?
-      <div className="tab-pane fade" id="pills-horror">
+      </div>
+      <div className={show=="horror"?"tab-pane active fade show":"tab-pane fade"} id="pills-horror">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="000ms">
             {/* popular-movies-two-box */}
@@ -1198,8 +1198,8 @@ export default function Home1Section5() {
             </div>
           </div>
         </div>
-      </div>:show=="cartoon"?
-      <div className="tab-pane fade" id="pills-cartoon">
+      </div>
+      <div className={show=="cartoon"?"tab-pane active fade show":"tab-pane fade"} id="pills-cartoon">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="000ms">
             {/* popular-movies-two-box */}
@@ -1430,8 +1430,7 @@ export default function Home1Section5() {
             </div>
           </div>
         </div>
-      </div>:null
-      }
+      </div>
     </div>
   </div>
 </section>

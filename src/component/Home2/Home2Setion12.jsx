@@ -33,17 +33,17 @@ export default function Home2Setion12() {
               <span>Movie</span>
             </div>
             <h4>
-              <a href="blog-details.html">
+              <a href="#">
                 Meet Success the Cale Smashing Book By Addy Osmanie
               </a>
             </h4>
             <ul>
               <li>
-                <a className="blog-single-name" href="blog-details.html"><i className="icon-man" />Johnny M. Kolb</a>
+                <a className="blog-single-name" href="#"><i className="icon-man" />Johnny M. Kolb</a>
               </li>
               <li>
                 <div>
-                  <a href="blog.html" className="btn-read-more">Read More</a>
+                  <a href="#" className="btn-read-more">Read More</a>
                 </div>
               </li>
             </ul>
@@ -68,17 +68,17 @@ export default function Home2Setion12() {
               <span>Internet</span>
             </div>
             <h4>
-              <a href="blog-details.html">
+              <a href="#">
                 Practical Design Tipsn Guidelines For Beginner Designers
               </a>
             </h4>
             <ul>
               <li>
-                <a className="blog-single-name" href="blog-details.html"><i className="icon-man" />Harold C. Duncan</a>
+                <a className="blog-single-name" href="#"><i className="icon-man" />Harold C. Duncan</a>
               </li>
               <li>
                 <div>
-                  <a href="blog.html" className="btn-read-more">Read More</a>
+                  <a href="#" className="btn-read-more">Read More</a>
                 </div>
               </li>
             </ul>
@@ -103,17 +103,17 @@ export default function Home2Setion12() {
               <span>Movie</span>
             </div>
             <h4>
-              <a href="blog-details.html">
+              <a href="#">
                 Design Patterns Are A Better Way Collaborate Design System
               </a>
             </h4>
             <ul>
               <li>
-                <a className="blog-single-name" href="blog-details.html"><i className="icon-man" />Ronnie J. Durante</a>
+                <a className="blog-single-name" href="#"><i className="icon-man" />Ronnie J. Durante</a>
               </li>
               <li>
                 <div>
-                  <a href="blog.html" className="btn-read-more">Read More</a>
+                  <a href="#" className="btn-read-more">Read More</a>
                 </div>
               </li>
             </ul>

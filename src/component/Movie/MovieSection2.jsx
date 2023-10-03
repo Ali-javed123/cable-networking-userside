@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom'
 export default function MovieSection2() {
   return (
     <>
@@ -59,7 +59,7 @@ export default function MovieSection2() {
             </ul>
             {/* about-six-btn */}
             <div className="theme-btn">
-              <a href="movies-details.html" className="btn btn-bg-primary">Watch Trailer<i className="icon-1" /></a>
+              <NavLink to="/MovieDetail" className="btn btn-bg-primary">Watch Trailer<i className="icon-1" /></NavLink>
             </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export default function Home4Section2() {
   return (
@@ -68,7 +69,7 @@ export default function Home4Section2() {
           <div className="about-four-experience">
             {/* theme-btn */}
             <div className="theme-btn">
-              <a href="about.html" className="btn btn-bg-primary">Learn More Us<i className="icon-1" /></a>
+              <NavLink to="/AboutUs" className="btn btn-bg-primary">Learn More Us<i className="icon-1" /></NavLink>
             </div>
             {/* about-four-experience-img-list */}
             <div className="about-four-experience-img-list">
