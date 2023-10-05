@@ -14,9 +14,11 @@ import Home2Section11 from '../component/Home2/Home2Setion11'
 import Home2Section12 from '../component/Home2/Home2Setion12'
 import Home2Section13 from '../component/Home2/Home2Setion13'
 import Home2Section14 from '../component/Home2/Home2Section14'
-
+import Slider from '../component/Home2/Slider'
 import NavbarMobile from '../component/NavbarMobile'
+import Home2Section15 from '../component/Home2/Home2Section15'
 import Footer from '../component/Footer'
+import HomeSection4 from '../component/Home/HomeSection4'
 import Scroll from '../component/Scroll'
 export default function Home2() {
   return (
@@ -27,20 +29,16 @@ export default function Home2() {
       {/* <Scroll/> */}
         <Header/>
         <main class="site-main">
-          <Home2Section1/>
+          <Slider/>
+          {/* <Home2Section1/> */}
           <Home2Section2/>
-          <Home2Section3/>
-          <Home2Setion4/>
-          <Home2Section5/>
-          <Home2Section6/>
-          <Home2Section7/>
           <Home2Section8/>
-          <Home2Section9/> 
+          <Home2Section15/>
+          <HomeSection4/>
+       
           {/* <Home2Section10/> */}
           {/* <Home2Section11/>  */}
-          <Home2Section14/>
-          <Home2Section12/>
-          <Home2Section13/>
+  
           
 
 

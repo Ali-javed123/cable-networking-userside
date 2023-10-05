@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom'
 export default function Home2Section2() {
   return (
     <>
@@ -17,59 +17,75 @@ export default function Home2Section2() {
     </div>
     {/* section-main-title */}
     <div className="section-main-title text-center">
-      <h2 className="mx-auto">Mediafy now comes <span className="section-main-title-primery">with an
-          wide</span> array of other services.</h2>
+      <h3 className="mx-auto">Why choose Comwave for Internet? </h3>
+      <p>Reliable, affordable and unlimited high-speed internet and Wi-Fi, and friendly support when you need it.</p>
     </div>
     <div className="row">
-      <div className="col-lg-4 col-lg-4 col-md-6 col-sm-12 text-center wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="100ms">
+      <div className="col-lg-3 col-md-6 col-sm-12 text-center wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="100ms">
         {/* services-one-box */}
         <div className="services-one-box">
           <div className="services-one-icon">
-            <i className="flaticon-fiber" />
+           <img src="assets/images/icon1.png" width={"100%"} alt="" />
           </div>
-          <h3>Fiber Broadband</h3>
-          <p>Sit amet consectetur. Pellentesque vel cursus magna proin enim odio ipsu vitae.
-            pretium ultrices odio eu at cras.</p>
+          <h3>Reliable connection</h3>
+          <p>For all  devices, even if they are all online.</p>
           <div className="services-one-btn">
-            <NavLink to="/Service" className="btn-arrow-right">Read More</NavLink>
+            {/* <NavLink to="/Service" className="btn-arrow-right">Read More</NavLink> */}
           </div>
         </div>
       </div>
-      <div className="col-lg-4 col-lg-4 col-md-6 col-sm-12 text-center wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="300ms">
+      <div className="col-lg-3  col-md-6 col-sm-12 text-center wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="300ms">
         {/* services-one-box */}
         <div className="services-one-box">
           <div className="services-one-icon">
-            <i className="flaticon-tv" />
+          <img src="assets/images/icon2.png" width={"100%"} alt="" />
+
           </div>
-          <h3>Satellite TV</h3>
-          <p>Sit amet consectetur. Pellentesque vel cursus magna proin enim odio ipsu vitae.
-            pretium ultrices odio eu at cras.</p>
-          <div className="services-one-btn">
+          <h3>The Speed You Really want</h3>
+          <p>Achieve a more noteworthy measure of what you love with the speediest Web and Wi-Fi incorporation.</p>
+          {/* <div className="services-one-btn">
             <NavLink to="/Service" className="btn-arrow-right">Read More</NavLink>
-          </div>
+          </div> */}
         </div>
       </div>
-      <div className="col-lg-4 col-lg-4 col-md-12 col-sm-12 text-center wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="600ms">
+      <div className="col-lg-3  col-md-12 col-sm-12 text-center wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="600ms">
         {/* services-one-box */}
         <div className="services-one-box">
           <div className="services-one-icon">
-            <i className="flaticon-energy-management" />
+          <img src="assets/images/icon2.png" width={"100%"} alt="" />
+
+
           </div>
-          <h3>Smart Broadband</h3>
-          <p>Sit amet consectetur. Pellentesque vel cursus magna proin enim odio ipsu vitae.
-            pretium ultrices odio eu at cras.</p>
-          <div className="services-one-btn">
+          <h3>Friendly Customer Service</h3>
+          <p>With over 3,000 positive reviews, we are committed to customer service.</p>
+          {/* <div className="services-one-btn">
             <NavLink to="/Service" className="btn-arrow-right">Read More</NavLink>
+          </div> */}
+        </div>
+      </div>
+
+      <div className="col-lg-3  col-md-12 col-sm-12 text-center wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="600ms">
+        {/* services-one-box */}
+        <div className="services-one-box">
+          <div className="services-one-icon">
+          <img src="assets/images/icon4.png" width={"100%"} alt="" />
+
+
           </div>
+          <h3>Incredible Savings</h3>
+          <p>Stretch your dollar  with our special offers.</p>
+          {/* <div className="services-one-btn">
+            <NavLink to="/Service" className="btn-arrow-right">Read More</NavLink>
+          </div> */}
         </div>
       </div>
     </div>
     {/* services-one-bottom */}
-    <div className="services-one-bottom text-center">
+    {/* <div className="services-one-bottom text-center">
       <p>Need Any Consultation's For New Services?
         <NavLink to="/ContactUs">Contact Us</NavLink>
       </p>
-    </div>
+    </div> */}
   </div>
 </section>
 

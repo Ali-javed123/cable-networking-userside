@@ -14,6 +14,7 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Shop from './Pages/Shop';
 import Checkout from './Pages/Checkout';
 import Contact from './Pages/Contact';
+import Home from './Pages/Home';
 function App() {
   return (
     <div className="App">
@@ -22,7 +23,7 @@ function App() {
         <Routes>
           {/* >>>>Superadmin panel>>>>> */}
        
-        <Route exact path="/" element={< Home1 />}></Route>
+        <Route exact path="/tv" element={< Home1 />}></Route>
         <Route exact path="/Internet" element={< Home2 />}></Route>
         <Route exact path="/Home3" element={< Home3 />}></Route>
         <Route exact path="/Home4" element={< Home4 />}></Route>
@@ -35,6 +36,7 @@ function App() {
         <Route exact path="/ShopDetail" element={< ShopDetail />}></Route>
         <Route exact path="/Checkout" element={<  Checkout />}></Route>
         <Route exact path="/ContactUs" element={<  Contact />}></Route>
+        <Route exact path="/" element={<   Home />}></Route>
 
        
         

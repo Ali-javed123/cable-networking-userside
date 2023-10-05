@@ -15,25 +15,8 @@ export default function Header() {
     <nav className="navbar-expand-lg">
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto">
-          <li className="dropdown">
-            <a className="nav-link dropdown-toggle" href="index-2.html">Home </a>
-            <ul>
-            <li><NavLink to="/">Home One</NavLink></li>
-              <li><NavLink to="/Internet">Home Two</NavLink></li>
-              <li><NavLink to="/Home3">Home Three</NavLink></li>
-              <li><NavLink to="/Home4">Home Four</NavLink></li>
-              <li>
-                <a className="dropdown-sub-toggle" href="#">Header Styles</a>
-                <ul className="sub-menu-inner">
-                  <li><a href="index-2.html">Header One</a></li>
-                  <li><a href="index2.html">Header Two</a></li>
-                  <li><a href="index3.html">Header Three</a></li>
-                  <li><a href="index4.html">Header Four</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li className="dropdown">
+         
+          {/* <li className="dropdown">
             <a className="nav-link dropdown-toggle" href="#">Pages</a>
             <ul>
             <li><NavLink to="/AboutUs">About Us</NavLink></li>
@@ -57,22 +40,22 @@ export default function Header() {
               <li><a href="faq.html">FAQs</a></li>
               <li><a href="testimonial.html">Testimonial</a></li>
             </ul>
-          </li>
-          <li className="dropdown">
+          </li> */}
+          {/* <li className="dropdown">
             <a className="nav-link dropdown-toggle" href="#">Services</a>
             <ul>
               <li><NavLink to="/Service">Services List</NavLink></li>
               <li><NavLink to="/ServiceDetail">Services Details</NavLink></li>
             </ul>
-          </li>
-          <li className="dropdown">
+          </li> */}
+          {/* <li className="dropdown">
             <a className="nav-link dropdown-toggle" href="#">Shop</a>
             <ul>
               <li><NavLink to="/Shop">Shop Page</NavLink></li>
               <li><NavLink to="/ShopDetail">Shop Details</NavLink></li>
               <li><NavLink to="/Checkout">Checkout</NavLink></li>
             </ul>
-          </li>
+          </li> */}
           {/* <li className="dropdown">
             <a className="nav-link dropdown-toggle" href="#">Blog</a>
             <ul>
@@ -80,15 +63,41 @@ export default function Header() {
               <li><a href="blog-details.html">Blog Details</a></li>
             </ul>
           </li> */}
+         
+          
             <li>
             <NavLink className="text-decoration-none" to="/Internet">Internet</NavLink>
           </li>
            <li>
-            <NavLink className="text-decoration-none" to="/">TV</NavLink>
+            <NavLink className="text-decoration-none" to="/TV">TV</NavLink>
           </li>
           <li>
-            <NavLink className="text-decoration-none" to="/ContactUs">Contact</NavLink>
+            <NavLink className="text-decoration-none" to="/Internet">Phone</NavLink>
           </li>
+          <li>
+            <NavLink className="text-decoration-none" to="/Internet">Bundles</NavLink>
+          </li>
+ 
+          <li className="dropdown">
+            <a className="nav-link dropdown-toggle" href="index-2.html">Support </a>
+            <ul>
+            <li><NavLink to="/">Speed Finder</NavLink></li>
+            <li><NavLink to="/">Help</NavLink></li>
+            <li><NavLink to="/">Apps</NavLink></li>
+            <li><NavLink to="/">Apps</NavLink></li>
+            <li><NavLink to="/Service">Services Status</NavLink></li>
+            <li><NavLink to="/ContactUs">ContactUs</NavLink></li>
+
+
+
+              {/* <li><NavLink to="/Internet">Home Two</NavLink></li> */}
+             
+            </ul>
+          </li>
+          <li>
+            <NavLink className="text-decoration-none" to="/Shop">Shop</NavLink>
+          </li>
+          
           <li>
             <div className="menu-search-box">
               <a href="#" className="search-toggler">

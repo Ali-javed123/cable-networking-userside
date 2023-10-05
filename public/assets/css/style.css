@@ -1258,6 +1258,10 @@ header.sticky .header-menu .navbar-nav>li {
 .banner-one {
     position: relative;
     overflow: hidden;
+    background: url(../images/background/Service-Page-Internet-main-Page-BG.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
 }
 
 .banner-shape-1 {
@@ -1471,6 +1475,11 @@ header.sticky .header-menu .navbar-nav>li {
     margin-top: 60px;
     transition: all 0.3s;
     background-color: var(--twonet-text-light);
+    height: 50vh;
+}
+.modal.show .modal-dialog {
+    transform: none;
+    top: 20%;
 }
 
 .services-one .services-one-box .services-one-icon {
@@ -1846,7 +1855,25 @@ header.sticky .header-menu .navbar-nav>li {
 * Package-one
 ********************/
 
-
+.pricing-package-one-box .box-price p {
+    color: var(--twonet-secondary);
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: normal;
+    transition: all 0.5s;
+}
+.pricing-package-one-box .box-price p:hover {
+    color:#fff;
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: normal;
+    transition: all 0.5s;
+}
+.websiteLink{
+    color: #ff1749;
+}
 
 
 .package-one {
@@ -4735,7 +4762,25 @@ header.sticky .header-menu-two .navbar-nav-two>li {
 .header-menu-two .navbar-nav-two>li>ul>li>ul>li:hover>a.dropdown-sub-toggle::before {
     color: var(--twonet-text-light);
 }
+.sliderCustum1{
+    background: url('../images/background/home-background.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    width: 100%;
+    background-size: cover;
 
+}
+
+.banner-two1 {
+    background: url(../images/background/home-background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 229px;
+    padding-bottom: 156px;
+    position: relative;
+    overflow: hidden;
+}
 /****************
 * Banner-two
 ****************/
@@ -4848,6 +4893,39 @@ header.sticky .header-menu-two .navbar-nav-two>li {
     font-weight: 400;
     line-height: 28.5px;
     width: 75%;
+}
+.hone2{
+    background: #fff;
+    width: 100%;
+    height: 110vh;
+}
+.perfect-plan {
+    background: url(../images/get-bak.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+.card-inter i{
+background: #ff1749;
+padding: 20px;
+border-radius: 50px;
+color: #FFF;
+font-size: 45px;
+margin-top: 20%;
+}
+.iconSection{
+    height: 40vh;
+    width: 100%;
+    background-color: #FFF;
+}
+.banner-one-info .banner-one-info-detail {
+    color:#000;
+    margin-bottom: 26px;
+    font-weight: 400;
+    line-height: 28.5px;
+    /* width: 75%; */
 }
 
 .u-line {
