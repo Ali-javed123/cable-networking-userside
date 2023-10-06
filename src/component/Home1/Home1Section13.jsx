@@ -105,7 +105,7 @@ export default function Home2Section8() {
        
           <div className="box-price">
           <h3 style={{fontSize:"25px"}}>Monthly Plan</h3>
-          <h3 style={{fontSize:"20px"}}><sup>$</sup>19<sup>.95/mon</sup></h3>
+          {/* <h3 style={{fontSize:"20px"}}><sup>$</sup>19<sup>.95/mon</sup></h3> */}
           
             <h3><sup> $</sup>74<sup> .95/mon</sup></h3>
           </div>
@@ -143,7 +143,7 @@ export default function Home2Section8() {
        
           <div className="box-price">
           <h3 style={{fontSize:"25px"}}>Monthly Plan</h3>
-          <h3 style={{fontSize:"20px"}}><sup>$</sup>49<sup>.95/mon</sup></h3>
+          {/* <h3 style={{fontSize:"20px"}}><sup>$</sup>49<sup>.95/mon</sup></h3> */}
           
             <h3><sup> $</sup>74<sup> .95/mon</sup></h3>
           </div>
@@ -182,7 +182,7 @@ export default function Home2Section8() {
        
           <div className="box-price">
           <h3 style={{fontSize:"25px"}}>Monthly Plan</h3>
-          <h3 style={{fontSize:"20px"}}><sup>$</sup>49<sup>.95/mon</sup></h3>
+          {/* <h3 style={{fontSize:"20px"}}><sup>$</sup>49<sup>.95/mon</sup></h3> */}
           
             <h3><sup> $</sup>24<sup> .95/mon</sup></h3>
           </div>

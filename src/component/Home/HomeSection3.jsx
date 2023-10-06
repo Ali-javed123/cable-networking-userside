@@ -52,10 +52,10 @@ export default function HomeSection3() {
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-md-8">
-                                    <h4 className='text-light'>TV</h4>
+                                    <h4 className='text-light'>Home Phone   </h4>
                                     <p className='text-light'>Starting from only</p>
-          <h4 className='text-light'><sup>$</sup> 25<sup>.00/month </sup></h4>
-          <p className='text-light'>Choose an affordable TV plan with news, sports, reality TV and more. Watch on your TV at home & all of your iOS devices.</p>
+          <h4 className='text-light'><sup>$</sup> 12<sup>.00/month </sup></h4>
+          <p className='text-light'>For a small portion of the price of a traditional phone line, get dependable, high-quality VoIP home phone service.</p>
 
                                 </div>
                                 <div className="col-md-4">
@@ -72,8 +72,8 @@ export default function HomeSection3() {
                                 <div className="col-md-8">
                                     <h4 className='text-light'>Bundles</h4>
                                     <p className='text-light'>Starting from only</p>
-          <h4 className='text-light'><sup>$</sup> 25<sup>.00/month </sup></h4>
-          <p className='text-light'>Choose an affordable TV plan with news, sports, reality TV and more. Watch on your TV at home & all of your iOS devices.</p>
+          <h4 className='text-light'><sup>$</sup> 42<sup>.95/month </sup></h4>
+          <p className='text-light'>For one low price and without a long-term commitment, get unlimited high-speed internet access and access to news, sports, and reality TV.</p>
 
                                 </div>
                                 <div className="col-md-4">

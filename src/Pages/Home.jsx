@@ -17,7 +17,7 @@ export default function Home() {
       {/* <Scroll/> */}
         <Navbar/>
         <main class="site-main">
-          <Slider/>
+          <HomeSection1/>
           {/* <HomeSection1/> */}
           <HomeSection2/>
           <HomeSection3/>

@@ -13,7 +13,7 @@ import Home1Secton9 from '../component/Home1/Home1Section9'
 import Home1Section10 from '../component/Home1/Home1Section10'
 import Home1Section11 from '../component/Home1/Home1Section11'
 import Home1Section12 from '../component/Home1/Home1Section12'
-
+import HomeSection4 from '../component/Home/HomeSection4'
 import NavbarMobile from '../component/NavbarMobile'
 import Footer from '../component/Footer'
 import Scroll from '../component/Scroll'
@@ -37,7 +37,8 @@ export default function Home1() {
             <Home1Section15/>
             <Home1Section16/>
             <Home1Section2/>
-            <Home1Section3/>
+            <HomeSection4/>
+            {/* <Home1Section3/>
             <Home1Section4/>
             <Home1Section5/>
             <Home1Section6/>
@@ -45,7 +46,7 @@ export default function Home1() {
             <Home1Secton9/>
             <Home1Section10/>
             <Home1Section11/>
-            <Home1Section12/>
+            <Home1Section12/> */}
 
 
         </main>

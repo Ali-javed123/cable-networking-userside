@@ -61,8 +61,10 @@ export default function Home2Section1() {
           </p>
           <p className="banner-one-info .banner-one-info-detail  text-center text-dark"><i className='fa fa-check '/>Live Tv with News Sport & Reality Entertainment
           </p>
-          <small>Starting as Low as</small>
-          <h4><sup>$</sup> 42<sup>.95/month and No Contact</sup></h4>
+          <div className='text-start mt-2'>
+          <small className='text-dark text-start'>Starting as Low as</small>
+          </div>
+          <h2><sup>$</sup> 22<sup>.95/month and No Contact</sup></h2>
           {/* banner-two-info-detail-two */}
        
           {/* banner-two-info-bottom */}
@@ -82,7 +84,7 @@ export default function Home2Section1() {
         <Carousel.Item >
           <img
             className="d-block w-100"
-            src={'assets/images/Service-Page-Internet-main-Page-BG.jpg'}
+            src={'assets/images/home-bg.jpg'}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -93,9 +95,9 @@ export default function Home2Section1() {
           {/* section-main-title */}
           <div className="section-main-title " style={{marginBottom:"50%"}}>
             <p style={{fontSize:"25px"}}>Comwave internet</p>
-            <h4 className='mt-2' style={{fontSize:"35px"}}>Acceleration Your Entire Home with<span className="section-main-title-primery">One Low Price  </span></h4>
-            <p style={{fontSize:"20px"  }}>   With Comwave you can stream faster and download all you like with speeds up to 1 Gbps.</p>
-            
+            <h4 className='mt-2 ' style={{fontSize:"35px"}}>Acceleration Your Entire Home with<span className="section-main-title-primery">One Low Price  </span></h4>
+            <p className='mb-3' style={{fontSize:"20px"  }}>   With Comwave you can stream faster and download all you like with speeds up to 1 Gbps.</p>
+           <span className='websiteLink' style={{fontSize:"20px"}}>Call</span> <a className='websiteLink'  style={{textDecoration:'none',fontSize:"20px"}} href="tel:1-866-350-5656">1-866-350-5656 </a><span style={{fontSize:"20px"}} className='websiteLink'>today</span> 
           </div>
       
           {/* banner-one-btn */}
@@ -103,12 +105,52 @@ export default function Home2Section1() {
             </div>
             <div className="col-md-6" >
                 <div >
-                    <img style={{height:"60vh",width:"100%"}} src="assets/images/Internet-Devices.png" alt="" />
+                    <img style={{height:"60vh",width:"100%"}} src="assets/images/Comwave-Price-Guarantee.png" alt="" />
                 </div>
             </div>
            </div>
           </Carousel.Caption>
         </Carousel.Item>        
+        <Carousel.Item >
+          <img
+            className="d-block w-100"
+            src={'assets/images/home-bg.jpg'}
+            alt="First slide"
+          />
+          <Carousel.Caption>
+          <div className="row align-items-center">
+      <div className="col-lg-6 col-md-9 col-sm-12 wow fadeInLeft animated" data-wow-duration="1500ms" data-wow-delay="00ms">
+        {/* banner-two-info */}
+        <div className="banner-two-info">
+          {/* banner-two-info-top */}
+       
+          <h5 className='text-dark'>COMWAVE INTERNET</h5>
+          <h2  className='text-dark'>Save With<span className='section-title-inner '>New Comwave Bundles</span> </h2>
+          {/* banner-two-info-detail */}
+          <p className="banner-one-info .banner-one-info-detail  text-center text-dark"><i className='fa fa-check '/>High Speed Internet
+          </p>
+          <p className="banner-one-info .banner-one-info-detail  text-center text-dark"><i className='fa fa-check '/>Live Tv with News Sport & Reality Entertainment
+          </p>
+          <div className='text-start mt-2'>
+          <small className='text-dark text-start'>Starting as Low as</small>
+          </div>
+          <h2><sup>$</sup> 42<sup>.95/month and No Contact</sup></h2>
+          {/* banner-two-info-detail-two */}
+       
+          {/* banner-two-info-bottom */}
+        
+          {/* btn */}
+        </div>
+      </div>
+      <div className="col-lg-6 col-md-3 col-sm-12 wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="00ms">
+        {/* banner-two-video-btn */}
+          {/* video-one-btn-shape */}
+        
+          <img className='img-fluid' style={{backgroundSize:"cover",height:"70vh",width:"100%"}} src="assets/images/Bundle-Devices.png" alt="" />
+      </div>
+    </div>  
+          </Carousel.Caption>
+        </Carousel.Item>
     </Carousel>
     </section>
       

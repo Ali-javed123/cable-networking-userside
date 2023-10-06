@@ -82,7 +82,7 @@ export default function Slider() {
         <Carousel.Item >
           <img
             className="d-block w-100"
-            src={'assets/images/Service-Page-Internet-main-Page-BG.jpg'}
+            src={'assets/images/home-bg.png'}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -95,7 +95,11 @@ export default function Slider() {
             <p style={{fontSize:"25px"}}>Comwave internet</p>
             <h4 className='mt-2' style={{fontSize:"35px"}}>Acceleration Your Entire Home with<span className="section-main-title-primery">One Low Price  </span></h4>
             <p style={{fontSize:"20px"  }}>   With Comwave you can stream faster and download all you like with speeds up to 1 Gbps.</p>
-            
+            <ul>
+              <li><i className='fa fa-check'/>Speeds up to 1 Gbps</li>
+              <li><i className='fa fa-check'/>Unlimited data</li>
+
+            </ul>
           </div>
       
           {/* banner-one-btn */}
