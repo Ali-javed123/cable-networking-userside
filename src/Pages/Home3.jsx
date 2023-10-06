@@ -10,6 +10,8 @@ import Home3Section7 from '../component/Home3/Home3Section7'
 import Home3Section8 from '../component/Home3/Home3Section8'
 import Home3Section9 from '../component/Home3/Home3Section9'
 import Home3Section10 from '../component/Home3/Home3Section10'
+import Home1Section13 from '../component/Home1/Home1Section13'
+import HomeSection4 from '../component/Home/HomeSection4'
 
 import NavbarMobile from '../component/NavbarMobile'
 import Footer from '../component/Footer'
@@ -24,15 +26,11 @@ export default function Home3() {
         <Navbar/>
         <main class="site-main">
           <Home3Section1/>
-          <Home3Section2/>
-          <Home3Section3/>
+          {/* <Home3Section2/> */}
+          {/* <Home3Section3/> */}
+          <Home1Section13/>
           <Home3Section4/>
-          <Home3Section5/>
-          <Home3Section6/>
-          <Home3Section7/>
-          <Home3Section8/>
-          <Home3Section9/>
-          <Home3Section10/>
+         <HomeSection4/>
           
           
 

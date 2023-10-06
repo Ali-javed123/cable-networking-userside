@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 import { Autoplay, Pagination ,Navigation,Scrollbar, A11y} from "swiper/modules";
 import Modal from 'react-bootstrap/Modal';
 
-export default function Home2Section13() {
+export default function Home3Section11() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -91,39 +91,30 @@ export default function Home2Section13() {
           
           <SwiperSlide>
 
-        <div className="pricing-package-one-box">
-          {/* box-title */} 
-            <div className="box-icon text-center">
-            <img src='assets/images/tv-icon.png' className="flaticon-network-cable" />
+          <div className="pricing-package-three-box">
+          {/* box-title */}
+          <div className="box-title">
+            <h3>Millennial Bundles</h3>
+            <div className="box-price text-shape">
+              <p><span>$</span>28<span>/month</span>
+              </p>
+            </div>
           </div>
-          <div className="box-title text-center">
-            <span>Millenial</span>
-            
-          </div>
-          
           {/* box-icon */}
-       
-          <div className="box-price">
-          <h3 style={{fontSize:"25px"}}>Monthly Plan</h3>
-          {/* <h3 style={{fontSize:"20px"}}><sup>$</sup>19<sup>.95/mon</sup></h3> */}
-          
-            <h3><sup> $</sup>74<sup> .95/mon</sup></h3>
+          <div className="box-icon">
+            <i className="flaticon-network-cable" />
+            <h3>Internet</h3>
           </div>
           {/* box-item-list */}
-          {/* <ul className="box-item-list">
-            <li><i className="icon-angle-double-right" />Internet with 100Mbps</li>
-            <li><i className="icon-angle-double-right" />Multiple users</li>
-            <li><i className="icon-angle-double-right" />WiFi router &amp; prevention</li>
-            <li><i className="icon-angle-double-right" />Unlimited devices</li>
-          </ul> */}
+          <ul className="box-item-list">
+            <li><i className="icon-angle-double-right" />Internet with <span>100Mbps</span></li>
+            <li><i className="icon-angle-double-right" />Unlimited devices (6-8 Devices)</li>
+            <li><i className="icon-angle-double-right" />Free Wi-Fi router &amp; prevention</li>
+            <li><i className="icon-angle-double-right" />Multiple users </li>
+          </ul>
           {/* box-price */}
-         
-          {/* box-btn */}
-          <div className="box-btn">
-            {/* <Link className='text-dark' style={{textDecoration:"none"}} to="#" onClick={handleShow}>+one time activation & free shipping </Link> */}
-            <a href="#" className="btn btn-small-primary btn-bg-white mt-2"  onClick={handleShow2}>Read more</a>
-
-          </div>
+          {/* btn-transparent */}
+          <a href="#" className="btn btn-transparent">Choose Package<i className="icon-1" /></a>
         </div>
           </SwiperSlide>
         {/* pricing-package-one-box */}

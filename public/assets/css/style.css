@@ -7590,7 +7590,8 @@ margin-top: 20%;
 }
 
 .pricing-package-three .box-icon {
-    display: flex;
+    /* display: flex; */
+    display: inline-block;
     align-items: center;
     margin: 40px 0;
 }
@@ -15219,4 +15220,12 @@ margin-top: 20%;
   .swiper-nav-btns button:hover {
     background-color: #d8373e;
     cursor: pointer;
+  }
+  .text-lights{
+    color: #000;
+    font-size: 20px;
+  }
+  .pricing-package-one-box:hover{
+    color: #fff !important;
+    font-size: 20px;
   }

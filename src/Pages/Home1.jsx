@@ -34,9 +34,9 @@ export default function Home1() {
             <Slider/>
           <Home1Section14/>
             <Home1Section13/>
-            <Home1Section15/>
             <Home1Section16/>
             <Home1Section2/>
+            <Home1Section15/>
             <HomeSection4/>
             {/* <Home1Section3/>
             <Home1Section4/>

@@ -4,7 +4,7 @@ export default function Home1Section15() {
   return (
    <section>
     <div className="container">
-        <div className="row">
+        <div className="row mb-2 mt-2">
             <div className="col-md-6">
                 <img src="assets/images/bundle-save.png" style={{height:"80vh"}} width={"100%"} alt="" />
                 <div className='text-start'>

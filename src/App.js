@@ -25,7 +25,7 @@ function App() {
        
         <Route exact path="/tv" element={< Home1 />}></Route>
         <Route exact path="/Internet" element={< Home2 />}></Route>
-        <Route exact path="/Home3" element={< Home3 />}></Route>
+        <Route exact path="/Bundles" element={< Home3 />}></Route>
         <Route exact path="/Home4" element={< Home4 />}></Route>
         <Route exact path="/AboutUs" element={< AboutUs />}></Route>
         <Route exact path="/Movie" element={< Movie />}></Route>
