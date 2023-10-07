@@ -1,6 +1,15 @@
-import React from 'react'
+import React,{useState} from 'react'
+import ReactPhoneInput from "react-phone-input-2";
+import 'react-phone-input-2/lib/style.css';
 
 export default function ContactSection2() {
+  const [number, Setnumber] = useState("")
+
+  const handleOnChange = (args) => {
+    Setnumber(args);
+    console.log("number", number)
+
+  };
   return (
     <>
 <section className="contact-page">
@@ -63,7 +72,14 @@ export default function ContactSection2() {
               <div className="row">
                 <div className="col-xl-6 col-lg-6">
                   <div className="contact-page-input-box">
-                    <label htmlFor="full-Name-123">Full Name</label>
+                    <label htmlFor="full-Name-123">First Name</label>
+                    <input type="text" id="full-Name-123" placeholder="Full Name" className="input-contact-text" name="name" required />
+                  </div>
+                </div>
+
+                <div className="col-xl-6 col-lg-6">
+                  <div className="contact-page-input-box">
+                    <label htmlFor="full-Name-123">Last Name</label>
                     <input type="text" id="full-Name-123" placeholder="Full Name" className="input-contact-text" name="name" required />
                   </div>
                 </div>
@@ -73,10 +89,12 @@ export default function ContactSection2() {
                     <input type="email" className="input-contact-text" id="email-123" placeholder="suppot@gmail.com" name="subject" required />
                   </div>
                 </div>
-                <div className="col-xl-12 col-lg-12">
+                <div className="col-xl-6 col-lg-12">
                   <div className="contact-page-input-box">
-                    <label htmlFor="textbox">Subject</label>
-                    <input type="text" id="textbox" className="input-contact-text" placeholder="I would like to discussed" required />
+                    <label htmlFor="textbox">Phone</label>
+                    <ReactPhoneInput
+                                        style={{ backgroundColor: "transparent",width:"100% !important" }}  value={number} onChange={handleOnChange}
+                                        defaultCountry="nl" enableSearchField />
                   </div>
                 </div>
                 <div className="col-xl-12 col-lg-12">

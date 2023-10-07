@@ -1475,7 +1475,7 @@ header.sticky .header-menu .navbar-nav>li {
     margin-top: 60px;
     transition: all 0.3s;
     background-color: var(--twonet-text-light);
-    height: 40vh;
+    height: 45vh;
 }
 .modal.show .modal-dialog {
     transform: none;
@@ -10282,7 +10282,7 @@ margin-top: 20%;
 
 .page-header-bg {
     position: absolute;
-    background: url(../images/background/page-header-bg-1.jpg);
+    background: url(../images/Group-791.png);
     top: 0;
     bottom: 0;
     left: 0;

@@ -8,6 +8,7 @@ import AboutUsSection5 from '../component/AboutUs/AboutUsSection5'
 import AboutUsSection6 from '../component/AboutUs/AboutUsSection6'
 import AboutUsSection7 from '../component/AboutUs/AboutUsSection7'
 import AboutUsSection8 from '../component/AboutUs/AboutUsSection8'
+import AboutUsSection9 from '../component/AboutUs/AboutUsSection9'
 import NavbarMobile from '../component/NavbarMobile'
 import Footer from '../component/Footer'
 import Scroll from '../component/Scroll'
@@ -21,15 +22,7 @@ export default function AboutUs() {
         <Navbar/>
         <main class="site-main">
           <AboutUsSection1/>
-          <AboutUsSection2/>
-          <AboutUsSection3/>
-          <AboutUsSection4/>
-          <AboutUsSection5/>
-          <AboutUsSection6/>
-          <AboutUsSection7/>
-          <AboutUsSection8/>
-         
-
+       <AboutUsSection9/>
         </main>
         <Footer/>
         <NavbarMobile/>

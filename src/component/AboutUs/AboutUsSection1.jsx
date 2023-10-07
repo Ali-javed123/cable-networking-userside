@@ -8,12 +8,12 @@ export default function AboutUsSection1() {
   <div className="container">
     {/* page-header-inner */}
     <div className="page-header-inner text-center">
-      <h2 className="wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="100ms">About
-        Company</h2>
+      <img src="assets/images/app-icon.png" alt="" />
+      <h2 className="wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="100ms">Apps</h2>
       <ul className="page-header-inner-title list-unstyled wow fadeInUp animated" data-wow-duration="1500ms" data-wow-delay="300ms">
         <li className="arrow-right"><NavLink to="/">Home</NavLink></li>
         <li>
-          <h4>About Company</h4>
+          <h4>Apps</h4>
         </li>
       </ul>
     </div>
