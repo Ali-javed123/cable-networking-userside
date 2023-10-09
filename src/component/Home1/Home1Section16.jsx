@@ -56,7 +56,7 @@
               spaceBetween: 20,
             },
             768: {
-              slidesPerView: 3,
+              slidesPerView: 5,
               spaceBetween: 10,
             },
             1024: {
@@ -72,7 +72,7 @@
           <div className="card-body">
               <img src="assets/images/life.png" alt="" />
               <p>LifeStyle</p>
-              <a href="#" className="btn btn-small-primary mt-2 mb-2"  onClick={handleShow2}>Read more</a>
+              <a href="#" className="btn btn-small-primary mt-2 mb-2"  onClick={handleShow2}>Read more</a><br/>
               <a href="#" onClick={()=>setactive(!active)} className='websiteLink' style={{marginLeft:"10px"}}>View Channel Content <i className='fa fa-arrow-down'/></a>
 
           </div>
@@ -81,73 +81,54 @@
           {/* pricing-package-one-box */}
           <SwiperSlide>
 
-          <div className="pricing-package-one-box">
-            {/* box-title */} 
-              <div className="box-icon text-center">
-              <img src='assets/images/tv-icon.png' className="flaticon-network-cable" />
-            </div>
-            <div className="box-title text-center">
-              <span>I Love TV </span>
-              
-            </div>
-            
-            {/* box-icon */}
-        
-            <div className="box-price">
-            <h3 style={{fontSize:"25px"}}>Monthly Plan</h3>
-            <h3 style={{fontSize:"20px"}}><sup>$</sup>49<sup>.95/mon</sup></h3>
-            
-              <h3><sup> $</sup>74<sup> .95/mon</sup></h3>
-            </div>
-            {/* box-item-list */}
-            {/* <ul className="box-item-list">
-              <li><i className="icon-angle-double-right" />Internet with 100Mbps</li>
-              <li><i className="icon-angle-double-right" />Multiple users</li>
-              <li><i className="icon-angle-double-right" />WiFi router &amp; prevention</li>
-              <li><i className="icon-angle-double-right" />Unlimited devices</li>
-            </ul> */}
-            {/* box-price */}
-          
-            {/* box-btn */}
-            <div className="box-btn">
-              {/* <Link className='text-dark' style={{textDecoration:"none"}} to="#" onClick={handleShow}>+one time activation & free shipping </Link> */}
-              <a href="#" className="btn btn-small-primary btn-bg-white mt-2"  onClick={handleShow4}>Read more</a>
+          <div className="card shadow" >
+          <div className="card-body">
+              <img src="assets/images/news-2.png" alt="" />
+              <p>News</p>
+              <a href="#" className="btn btn-small-primary mt-2 mb-2"  onClick={handleShow3}>Read more</a><br/>
+              <a href="#" onClick={()=>setactive(!active)} className='websiteLink' style={{marginLeft:"10px"}}>View Channel Content <i className='fa fa-arrow-down'/></a>
 
-            </div>
           </div>
+      </div>
     </SwiperSlide>
 
 
     <SwiperSlide>
 
-    <div className="pricing-package-one-box">
-            {/* box-title */} 
-              <div className="box-icon text-center">
-              <img src='assets/images/tv-icon.png' className="flaticon-network-cable" />
-            </div>
-            <div className="box-title text-center">
-              <span>Family & Children</span>
-              
-            </div>
-            
-            {/* box-icon */}
-        
-            <div className="box-price">
-            <h3 style={{fontSize:"25px"}}>Monthly Plan</h3>
-            <h3 style={{fontSize:"20px"}}><sup>$</sup>49<sup>.95/mon</sup></h3>
-            
-              <h3><sup> $</sup>24<sup> .95/mon</sup></h3>
-            </div>
-    
-          
-              <a href="#" className="btn btn-small-primary btn-bg-white mt-2"  onClick={handleShow6}>Read more</a>
-            {/* box-btn */}
-            <div className="box-btn">
-              {/* <Link className='text-dark' style={{textDecoration:"none"}} to="#" onClick={handleShow}>+one time activation & free shipping </Link> */}
+    <div className="card shadow" >
+          <div className="card-body">
+              <img src="assets/images/education-3.png" alt="" />
+              <p>Education</p>
+              <a href="#" className="btn btn-small-primary mt-2 mb-2"  onClick={handleShow2}>Read more</a><br/>
+              <a href="#" onClick={()=>setactive(!active)} className='websiteLink' style={{marginLeft:"10px"}}>View Channel Content <i className='fa fa-arrow-down'/></a>
 
-            </div>
           </div>
+      </div>
   </SwiperSlide>
+  <SwiperSlide>
+
+<div className="card shadow" >
+      <div className="card-body">
+          <img src="assets/images/life.png" alt="" />
+          <p>LifeStyle</p>
+          <a href="#" className="btn btn-small-primary mt-2 mb-2"  onClick={handleShow2}>Read more</a><br/>
+          <a href="#" onClick={()=>setactive(!active)} className='websiteLink' style={{marginLeft:"10px"}}>View Channel Content <i className='fa fa-arrow-down'/></a>
+
+      </div>
+  </div>
+</SwiperSlide>
+<SwiperSlide>
+
+<div className="card shadow" >
+      <div className="card-body">
+          <img src="assets/images/life.png" alt="" />
+          <p>LifeStyle</p>
+          <a href="#" className="btn btn-small-primary mt-2 mb-2"  onClick={handleShow2}>Read more</a><br/>
+          <a href="#" onClick={()=>setactive(!active)} className='websiteLink' style={{marginLeft:"10px"}}>View Channel Content <i className='fa fa-arrow-down'/></a>
+
+      </div>
+  </div>
+</SwiperSlide>
               </Swiper>  
               <div className="row">
                 <div className="col-md-12">
@@ -619,7 +600,7 @@
           <Modal.Body>
             <div className="row">
               <div className="col-md-6">
-                  <div className="card shadow" style={{height:"44vh"}}>
+                  <div className="card shadow" style={{height:"50vh"}}>
                       <div className="card-body">
                           <div className="row">
                               <div className="col-md-3">
@@ -721,6 +702,57 @@
                   </div>
                 </div>
               </div>
+            
+          
+            </div>
+          
+        
+          </Modal.Body>
+        
+        </Modal>
+
+        <Modal size='xl' show={show3} onHide={handleClose3}>
+          <Modal.Header closeButton>
+            <Modal.Title>Package Details</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <div className="row">
+              <div className="col-md-6">
+                  <div className="card shadow" >
+                      <div className="card-body">
+                          <div className="row justify-content-center">
+                              <div className="col-md-3">
+                                  <img width={"100%"} style={{height:'30vh'}} src="assets/images/BNNB-Taking-Stock-1.png" alt="" />
+
+                              </div>
+
+                              <div className="col-md-9">
+                                  <div className="row justify-content-center">
+                                      <div className="col-4" style={{borderBottom:"1px solid #000"}}>
+                            
+                                    <p> News</p>    
+                                      </div>
+                                      <div className="col-4" style={{borderBottom:"1px solid #000"}}>
+                                          <p><sup>$</sup>9<sup>.95/mon</sup></p>
+                                      </div>
+                                      
+                                  </div>
+                                  <div className="row">
+                                    <div className="col-md-12">
+
+                                    <p>Enjoy a wide selection of news channels and be up-to-date with all the happenings in the world at anytime of the day.  </p>
+                                    <img width={"100%"} className='mt-2' src="assets/images/newschannels-387x82-1.png" alt="" />
+                                    </div>
+
+                                  </div>
+
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+           
             
           
             </div>

@@ -8,6 +8,7 @@ import MovieSection5 from '../component/Movie/MovieSection5'
 import MovieSection6 from '../component/Movie/MovieSection6'
 import MovieSection7 from '../component/Movie/MovieSection7'
 import MovieSection8 from '../component/Movie/MovieSection8'
+import MovieSection9 from '../component/Movie/MovieSection9'
 import NavbarMobile from '../component/NavbarMobile'
 import Footer from '../component/Footer'
 import Scroll from '../component/Scroll'
@@ -21,13 +22,14 @@ export default function Movie() {
         <Navbar/>
         <main class="site-main">
           <MovieSection1/>
-          <MovieSection2/>
-          <MovieSection3/>
+          <MovieSection9/>
+          {/* <MovieSection2/> */}
+          {/* <MovieSection3/>
           <MovieSection4/>
           <MovieSection5/>
           <MovieSection6/>
           <MovieSection7/>
-          <MovieSection8/>
+          <MovieSection8/> */}
 
 
          

@@ -16,6 +16,7 @@ import HomeSection4 from '../component/Home/HomeSection4'
 import NavbarMobile from '../component/NavbarMobile'
 import Footer from '../component/Footer'
 import Scroll from '../component/Scroll'
+
 export default function Home3() {
   return (
     < >

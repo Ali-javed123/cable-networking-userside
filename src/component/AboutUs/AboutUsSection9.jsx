@@ -8,6 +8,10 @@ export default function AboutUsSection9() {
     <section>
         <div className="container">
             <div className="row justify-content-center" style={{marginBottom:"7%"}}>
+            <div class="steeple">
+        <div class="base"></div>
+        <div class="roof"></div>
+    </div>
                 <div className="col-md-8">
                     <div className="card mt-3 mb-2 shadow" >
                         <div className="card-body">
