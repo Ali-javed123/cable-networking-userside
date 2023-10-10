@@ -33,15 +33,22 @@
     
     
     
+      
+      const [show5, setShow5] = useState(false);
+      
+      const handleClose5 = () => setShow5(false);
+      const handleShow5 = () => setShow5(true);
+      
       const [show6, setShow6] = useState(false);
     
       const handleClose6 = () => setShow6(false);
       const handleShow6 = () => setShow6(true);
+
+   
+      const [show7, setShow7] = useState(false);
     
-      const [show5, setShow5] = useState(false);
-    
-      const handleClose5 = () => setShow5(false);
-      const handleShow5 = () => setShow5(true);
+      const handleClose7 = () => setShow7(false);
+      const handleShow7 = () => setShow7(true);
     
     return (
       <>
@@ -50,7 +57,7 @@
       <section>
 
           <div className="container">
-          <Swiper navigation={true} pagination={true} breakpoints={{
+          <Swiper  breakpoints={{
             640: {
               slidesPerView: 2,
               spaceBetween: 20,
@@ -60,10 +67,10 @@
               spaceBetween: 10,
             },
             1024: {
-              slidesPerView: 3,
+              slidesPerView: 4,
               spaceBetween: 10,
             },
-          }} loop   modules={[Pagination,Autoplay,Navigation,Pagination]} className=" ">
+          }} loop   modules={[Autoplay,Navigation]} className=" ">
             
             
             <SwiperSlide>
@@ -99,7 +106,7 @@
           <div className="card-body">
               <img src="assets/images/education-3.png" alt="" />
               <p>Education</p>
-              <a href="#" className="btn btn-small-primary mt-2 mb-2"  onClick={handleShow2}>Read more</a><br/>
+              <a href="#" className="btn btn-small-primary mt-2 mb-2"  onClick={handleShow4}>Read more</a><br/>
               <a href="#" onClick={()=>setactive(!active)} className='websiteLink' style={{marginLeft:"10px"}}>View Channel Content <i className='fa fa-arrow-down'/></a>
 
           </div>
@@ -110,25 +117,30 @@
 <div className="card shadow" >
       <div className="card-body">
           <img src="assets/images/life.png" alt="" />
-          <p>LifeStyle</p>
-          <a href="#" className="btn btn-small-primary mt-2 mb-2"  onClick={handleShow2}>Read more</a><br/>
+          <p>Music</p>
+          <a href="#" className="btn btn-small-primary mt-2 mb-2"  onClick={handleShow5}>Read more</a><br/>
           <a href="#" onClick={()=>setactive(!active)} className='websiteLink' style={{marginLeft:"10px"}}>View Channel Content <i className='fa fa-arrow-down'/></a>
 
       </div>
   </div>
 </SwiperSlide>
+
+
+
+
 <SwiperSlide>
 
 <div className="card shadow" >
       <div className="card-body">
-          <img src="assets/images/life.png" alt="" />
-          <p>LifeStyle</p>
-          <a href="#" className="btn btn-small-primary mt-2 mb-2"  onClick={handleShow2}>Read more</a><br/>
+          <img src="assets/images/sports.png" alt="" />
+          <p>Sports</p>
+          <a href="#" className="btn btn-small-primary mt-2 mb-2"  onClick={handleShow7}>Read more</a><br/>
           <a href="#" onClick={()=>setactive(!active)} className='websiteLink' style={{marginLeft:"10px"}}>View Channel Content <i className='fa fa-arrow-down'/></a>
 
       </div>
   </div>
 </SwiperSlide>
+<SwiperButtun/>
               </Swiper>  
               <div className="row">
                 <div className="col-md-12">
@@ -669,7 +681,7 @@
                 </div>
               </div>
               <div className="col-md-6 ">
-                <div className="card mt-2" style={{height:"44vh"}}>
+                <div className="card mt-2">
                   <div className="card-body">
                   <div className="row">
                               <div className="col-md-3">
@@ -711,13 +723,13 @@
         
         </Modal>
 
-        <Modal size='xl' show={show3} onHide={handleClose3}>
+        <Modal size='md' show={show3} onHide={handleClose3}>
           <Modal.Header closeButton>
             <Modal.Title>Package Details</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-md-12">
                   <div className="card shadow" >
                       <div className="card-body">
                           <div className="row justify-content-center">
@@ -753,6 +765,391 @@
 
               </div>
            
+            
+          
+            </div>
+          
+        
+          </Modal.Body>
+        
+        </Modal>
+
+        <Modal size='md' show={show4} onHide={handleClose4}>
+          <Modal.Header closeButton>
+            <Modal.Title>Package Details</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <div className="row">
+              <div className="col-md-12">
+                  <div className="card shadow" >
+                      <div className="card-body">
+                          <div className="row justify-content-center">
+                              <div className="col-md-3">
+                                  <img width={"100%"} style={{height:'30vh'}} src="assets/images/Oak-Island-2.jpg" alt="" />
+
+                              </div>
+
+                              <div className="col-md-9">
+                                  <div className="row justify-content-center">
+                                      <div className="col-4" style={{borderBottom:"1px solid #000"}}>
+                            
+                                    <p> Education</p>    
+                                      </div>
+                                      <div className="col-4" style={{borderBottom:"1px solid #000"}}>
+                                          <p><sup>$</sup>19<sup>.95/mon</sup></p>
+                                      </div>
+                                      
+                                  </div>
+                                  <div className="row">
+                                    <div className="col-md-12">
+
+                                    <p>Your favourite educational channels including Discovery, Animal Planet and many more.  </p>
+                                    <img width={"100%"} className='mt-2' src="assets/images/educationchannels-354x85-1.png" alt="" />
+                                    </div>
+
+                                  </div>
+
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+           
+            
+          
+            </div>
+          
+        
+          </Modal.Body>
+        
+        </Modal>
+
+
+        <Modal size='md' show={show5} onHide={handleClose5}>
+          <Modal.Header closeButton>
+            <Modal.Title>Package Details</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <div className="row">
+              <div className="col-md-12">
+                  <div className="card shadow" >
+                      <div className="card-body">
+                          <div className="row justify-content-center">
+                              <div className="col-md-3">
+                                  <img width={"100%"} style={{height:'30vh'}} src="assets/images/Teen-Mom-2-2.png" alt="" />
+
+                              </div>
+
+                              <div className="col-md-9">
+                                  <div className="row justify-content-center">
+                                      <div className="col-4" style={{borderBottom:"1px solid #000"}}>
+                            
+                                    <p> Music</p>    
+                                      </div>
+                                      <div className="col-4" style={{borderBottom:"1px solid #000"}}>
+                                          <p><sup>$</sup>4<sup>.95/mon</sup></p>
+                                      </div>
+                                      
+                                  </div>
+                                  <div className="row">
+                                    <div className="col-md-12">
+
+                                    <p>If you're looking for educational channels, you've come to the right place! Check out your favorite Discovery Channel, Animal Planet, and more!.  </p>
+                                    <img width={"100%"} className='mt-2' src="assets/images/Music-1.png" alt="" />
+                                    </div>
+
+                                  </div>
+
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+           
+            
+          
+            </div>
+          
+        
+          </Modal.Body>
+        
+        </Modal>
+
+        
+
+
+        <Modal size='xl' show={show6} onHide={handleClose6}>
+          <Modal.Header closeButton>
+            <Modal.Title>Package Details</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <div className="row">
+              <div className="col-md-6">
+                  <div className="card shadow" >
+                      <div className="card-body">
+                          <div className="row">
+                              <div className="col-md-3">
+                                  <img width={"100%"} style={{height:'30vh'}} src="assets/images/ComWave_desktop_JANUARY2023_V3.jpg" alt="" />
+
+                              </div>
+
+                              <div className="col-md-9">
+                                  <div className="row justify-content-center">
+                                      <div className="col-6" style={{borderBottom:"1px solid #000"}}>
+                            
+                                    <p> Hollywood Suite</p>    
+                                      </div>
+                                      <div className="col-6" style={{borderBottom:"1px solid #000"}}>
+                                          <p><sup>$</sup>4<sup>.95/mon</sup></p>
+                                      </div>
+                                      
+                                  </div>
+                                  <div className="row">
+                                    <div className="col-md-12">
+
+                                    <p>films that defined the '70s, '80s, '90s and '2000s. Watch 4 HD channels of uncut, commercial-free movies.  </p>
+                                    <img width={"100%"}  className='mt-2' src="assets/images/Hollywood-Suite-1.png" alt="" />
+                                    </div>
+
+                                  </div>
+
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+              <div className="col-md-6">
+                <div className="card" style={{height:"44vh"}}>
+                  <div className="card-body">
+                  <div className="row">
+                              <div className="col-md-3">
+                                  <img width={"100%"} style={{height:'30vh'}} src="assets/images/Super-Channel-Updated.jpg" alt="" />
+
+                              </div>
+
+                              <div className="col-md-9">
+                                  <div className="row justify-content-center">
+                                      <div className="col-6" style={{borderBottom:"1px solid #000"}}>
+                            
+                                    <p> Super Channel</p>    
+                                      </div>
+                                      <div className="col-6" style={{borderBottom:"1px solid #000"}}>
+                                          <p><sup>$</sup>9<sup>.95/mon</sup></p>
+                                      </div>
+                                      
+                                  </div>
+                                  <div className="row">
+                                    <div className="col-md-12">
+
+                                    <p>Super Channel is the best of the best when it comes to premium entertainment. With 4 different channels, you can find a wide variety of movies, shows, documentaries, esports, and more - all unedited and free of ads.  </p>
+                                    <img width={"100%"} className='mt-2' src="assets/images/Super-Channel-1.png" alt="" />
+                                    </div>
+
+                                  </div>
+
+                              </div>
+                          </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 ">
+                <div className="card mt-2">
+                  <div className="card-body">
+                  <div className="row">
+                              <div className="col-md-3">
+                                  <img width={"100%"} style={{height:'30vh'}} src="assets/images/STARZ-Updated.jpg" alt="" />
+
+                              </div>
+
+                              <div className="col-md-9">
+                                  <div className="row justify-content-center">
+                                      <div className="col-4" style={{borderBottom:"1px solid #000"}}>
+                            
+                                    <p> STARZ</p>    
+                                      </div>
+                                      <div className="col-4" style={{borderBottom:"1px solid #000"}}>
+                                          <p><sup>$</sup>9<sup>.95/mon</sup></p>
+                                      </div>
+                                      
+                                  </div>
+                                  <div className="row">
+                                    <div className="col-md-12">
+
+                                    <p>Watch Obsessable STARZ Original series and your favourite classic movies.  </p>
+                                    <img width={"100%"} className='mt-2' src="assets/images/Starz-Logo-Website.png" alt="" />
+                                    </div>
+
+                                  </div>
+
+                              </div>
+                          </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 ">
+                <div className="card mt-2">
+                  <div className="card-body">
+                  <div className="row">
+                              <div className="col-md-3">
+                                  <img width={"100%"} style={{height:'38vh'}} src="assets/images/Crave_173w-x-215-The-First-Lady-LogoRight-1.jpg" alt="" />
+
+                              </div>
+
+                              <div className="col-md-9">
+                                  <div className="row justify-content-center">
+                                      <div className="col-4" style={{borderBottom:"1px solid #000"}}>
+                            
+                                    <p>Crave</p>    
+                                      </div>
+                                      <div className="col-4" style={{borderBottom:"1px solid #000"}}>
+                                          <p><sup>$</sup>20<sup>.95/mon</sup></p>
+                                      </div>
+                                      
+                                  </div>
+                                  <div className="row">
+                                    <div className="col-md-12">
+
+                                    <p>Enjoy exclusive access to the most captivating movies, must-see HBO and Showtime series, and groundbreaking Crave Originals. Plus, you can choose how and when you watch with 6 channels at your fingertips. </p>
+                                    <img width={"100%"} className='mt-2' src="assets/images/Crave-MoviesHBO-1.png" alt="" />
+                                    </div>
+
+                                  </div>
+
+                              </div>
+                          </div>
+                  </div>
+                </div>
+              </div>
+
+
+              
+            
+          
+            </div>
+          
+        
+          </Modal.Body>
+        
+        </Modal>
+
+
+
+
+
+
+
+        <Modal size='xl' show={show7} onHide={handleClose7}>
+          <Modal.Header closeButton>
+            <Modal.Title>Package Details</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <div className="row">
+              <div className="col-md-6">
+                  <div className="card shadow" style={{height:"50vh"}}>
+                      <div className="card-body">
+                          <div className="row">
+                              <div className="col-md-3">
+                                  <img width={"100%"} style={{height:'30vh'}} src="assets/images/Sportsnet-Updated.jpg" alt="" />
+
+                              </div>
+
+                              <div className="col-md-9">
+                                  <div className="row justify-content-center">
+                                      <div className="col-4" style={{borderBottom:"1px solid #000"}}>
+                            
+                                    <p> SportSnet+</p>    
+                                      </div>
+                                      <div className="col-4" style={{borderBottom:"1px solid #000"}}>
+                                          <p><sup>$</sup>29<sup>.95/mon</sup></p>
+                                      </div>
+                                      
+                                  </div>
+                                  <div className="row">
+                                    <div className="col-md-12">
+
+                                    <p>Enjoy everything Sportsnet with this incredible package plus Wild TV for those who enjoy hunting, fishing, and motorsports.  </p>
+                                    <img width={"100%"} className='mt-2' src="assets/images/sportsnetchannels.png" alt="" />
+                                    </div>
+
+                                  </div>
+
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+              <div className="col-md-6">
+                <div className="card" style={{height:"44vh"}}>
+                  <div className="card-body">
+                  <div className="row">
+                              <div className="col-md-3">
+                                  <img width={"100%"} style={{height:'30vh'}} src="assets/images/TSN-Updated.jpg" alt="" />
+
+                              </div>
+
+                              <div className="col-md-9">
+                                  <div className="row justify-content-center">
+                                      <div className="col-4" style={{borderBottom:"1px solid #000"}}>
+                            
+                                    <p> TSN+</p>    
+                                      </div>
+                                      <div className="col-4" style={{borderBottom:"1px solid #000"}}>
+                                          <p><sup>$</sup>19<sup>.95/mon</sup></p>
+                                      </div>
+                                      
+                                  </div>
+                                  <div className="row">
+                                    <div className="col-md-12">
+
+                                    <p>As Canada’s Sports Leader, TSN’s five feeds deliver the biggest events in sports including the NFL, NBA, CFL, MLS, regional NHL hockey, World Juniors, Grand Slam Tennis and so much more.  </p>
+                                    <img width={"100%"} className='mt-2' src="assets/images/tsnpluschannels-1-300x21-1.png" alt="" />
+                                    </div>
+
+                                  </div>
+
+                              </div>
+                          </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 ">
+                <div className="card mt-2">
+                  <div className="card-body">
+                  <div className="row">
+                              <div className="col-md-3">
+                                  <img width={"100%"} style={{height:'30vh'}} src="assets/images/All-Sports.jpg" alt="" />
+
+                              </div>
+
+                              <div className="col-md-9">
+                                  <div className="row justify-content-center">
+                                      <div className="col-4" style={{borderBottom:"1px solid #000"}}>
+                            
+                                    <p> All Sports</p>    
+                                      </div>
+                                      <div className="col-4" style={{borderBottom:"1px solid #000"}}>
+                                          <p><sup>$</sup>19<sup>.95/mon</sup></p>
+                                      </div>
+                                      
+                                  </div>
+                                  <div className="row">
+                                    <div className="col-md-12">
+
+                                    <p>This package encompasses a wide range of various sports from hockey to fishing. Whether you’re into the great outdoors or classic sports, we’ve got you covered with this package.  </p>
+                                    <img width={"100%"} className='mt-2' src="assets/images/allsportschannels-300x21-1.png" alt="" />
+                                    </div>
+
+                                  </div>
+
+                              </div>
+                          </div>
+                  </div>
+                </div>
+              </div>
             
           
             </div>

@@ -15327,3 +15327,20 @@ margin-top: 20%;
 .boderBottom{
     border-bottom: 1px solid #ff1749;
 }
+
+
+
+
+
+
+
+.SideBar{
+    height: 60vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color:#ff1749;
+}

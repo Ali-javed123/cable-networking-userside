@@ -15,6 +15,7 @@ import Shop from './Pages/Shop';
 import Checkout from './Pages/Checkout';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
+import Phone from './Pages/Phone';
 function App() {
   return (
     <div className="App">
@@ -22,7 +23,9 @@ function App() {
      <Router>
         <Routes>
           {/* >>>>Superadmin panel>>>>> */}
-       
+          
+        <Route exact path="/Phone" element={< Phone />}></Route>
+
         <Route exact path="/tv" element={< Home1 />}></Route>
         <Route exact path="/Internet" element={< Home2 />}></Route>
         <Route exact path="/Bundles" element={< Home3 />}></Route>
