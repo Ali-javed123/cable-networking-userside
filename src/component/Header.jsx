@@ -9,7 +9,7 @@ export default function Header() {
     {/* header-logo */}
     <div className="logo-box">
       <a href="index-2.html">
-        <img src="assets/images/resources/logo.png" alt="header-logo" />
+        <img width={"100%"} src="assets/images/logo.png" alt="header-logo" />
       </a>
     </div>
     <nav className="navbar-expand-lg">
@@ -64,27 +64,25 @@ export default function Header() {
             </ul>
           </li> */}
          
+           <li>
+            <NavLink className="text-decoration-none" to="/TV">TV</NavLink>
+          </li>
           
             <li>
             <NavLink className="text-decoration-none" to="/Internet">Internet</NavLink>
           </li>
-           <li>
-            <NavLink className="text-decoration-none" to="/TV">TV</NavLink>
+          <li>
+            <NavLink className="text-decoration-none" to="/Phone">Phone</NavLink>
           </li>
           <li>
-            <NavLink className="text-decoration-none" to="/Internet">Phone</NavLink>
-          </li>
-          <li>
-            <NavLink className="text-decoration-none" to="/Internet">Bundles</NavLink>
+            <NavLink className="text-decoration-none" to="/Bundles">Bundles</NavLink>
           </li>
  
           <li className="dropdown">
             <a className="nav-link dropdown-toggle" href="index-2.html">Support </a>
             <ul>
-            <li><NavLink to="/">Speed Finder</NavLink></li>
-            <li><NavLink to="/">Help</NavLink></li>
-            <li><NavLink to="/">Apps</NavLink></li>
-            <li><NavLink to="/">Apps</NavLink></li>
+            <li><NavLink to="/SpeedFinder">Speed Finder</NavLink></li>
+            <li><NavLink to="/Apps">Apps</NavLink></li>
             <li><NavLink to="/Service">Services Status</NavLink></li>
             <li><NavLink to="/ContactUs">ContactUs</NavLink></li>
 

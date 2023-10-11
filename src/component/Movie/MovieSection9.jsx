@@ -4,7 +4,7 @@ export default function MovieSection9() {
     const [show,SetShow]=useState("")
   return (
     <>
-    <section  style={{marginBottom:"15%",marginTop:'5%'}}>
+    <section  style={{marginBottom:"5%",marginTop:'5%'}}>
 <div className="container">
   <div className="stepper-wrapper">
     <div className="stepper-item completed">

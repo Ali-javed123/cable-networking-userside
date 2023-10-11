@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export default function NavbarMobile() {
   return (
@@ -12,77 +13,56 @@ export default function NavbarMobile() {
     {/* logo-box */}
     <div className="logo-box">
       <a href="index-2.html" aria-label="logo image">
-        <img src="assets/images/resources/header-two-logo.png" alt="two-logo" />
+      <img src="assets/images/logo.png" alt="header-logo" />
+
       </a>
     </div>
     {/* mobile-nav-two-container */}
     <div className="mobile-nav-two-container">
       {/* main-menu-list */}
       <ul className="main-menu-list">
-        <li className="dropdown">
-          <a href="#">Home </a>
-          <ul>
-            <li><a href="index-2.html">Home One</a></li>
-            <li><a href="index2.html">Home Two</a></li>
-            <li><a href="index3.html">Home Three</a></li>
-            <li><a href="index4.html">Home Four</a></li>
-            <li className="dropdown">
-              <a href="#">Header Styles</a>
-              <ul>
-                <li><a href="index-2.html">Header One</a></li>
-                <li><a href="index2.html">Header Two</a></li>
-                <li><a href="index3.html">Header Three</a></li>
-                <li><a href="index4.html">Header Four</a></li>
-              </ul>
-            </li>
-          </ul>
+   
+     
+        <li>
+        <NavLink className="text-decoration-none" to="/TV">TV</NavLink>
+
         </li>
-        <li className="dropdown">
-          <a href="#">Pages</a>
-          <ul>
-            <li><a href="about.html">About Us</a></li>
-            <li className="dropdown"><a href="movies-list.html">Movies</a>
-              <ul className="sub-menu-inner">
-                <li><a href="movies-list.html">Movies List</a></li>
-                <li><a href="movies-details.html">Movies Details</a></li>
-              </ul>
-            </li>
-            <li className="dropdown"><a href="#">Team</a>
-              <ul className="sub-menu-inner">
-                <li><a href="team-member.html">Team Member</a></li>
-                <li><a href="team-details.html">Team Details</a></li>
-              </ul>
-            </li>
-            <li><a href="package.html">Package</a></li>
-            <li><a href="career.html">Career</a></li>
-            <li><a href="faq.html">FAQs</a></li>
-            <li><a href="testimonial.html">Testimonial</a></li>
-          </ul>
-        </li>
-        <li className="dropdown current">
-          <a href="#">Services</a>
-          <ul>
-            <li><a href="services.html">Services List</a></li>
-            <li><a href="services-details.html">Services Details</a></li>
-          </ul>
-        </li>
-        <li className="dropdown">
-          <a href="#">shop</a>
-          <ul>
-            <li><a href="shop-page.html">Shop Page</a></li>
-            <li><a href="shop-details.html">Shop Details</a></li>
-            <li><a href="checkout.html">Checkout</a></li>
-          </ul>
-        </li>
-        <li className="dropdown">
-          <a href="#">Blog</a>
-          <ul>
-            <li><a href="blog.html">Blog List</a></li>
-            <li><a href="blog-details.html">Blog Details</a></li>
-          </ul>
+
+        <li>
+        <NavLink className="text-decoration-none" to="/Internet">Internet</NavLink>
+
+
         </li>
         <li>
-          <a href="contact.html">Contact</a>
+        <NavLink className="text-decoration-none" to="/Bundles">Bundles</NavLink>
+
+
+
+        </li>
+        <li>
+        <NavLink className="text-decoration-none" to="/Phone">Phone</NavLink>
+
+
+
+        </li>
+        <li className="dropdown">
+          <a href="#">Support </a>
+          <ul>
+            <li><NavLink to="/SpeedFinder">Speed Finder</NavLink></li>
+            <li><NavLink to="/Apps">Apps</NavLink></li>
+            <li><NavLink to="/Service">Services Status</NavLink></li>
+            <li><NavLink to="/ContactUs">ContactUs</NavLink></li>
+
+
+
+              {/* <li><NavLink to="/Internet">Home Two</NavLink></li> */}
+             
+            </ul>
+        </li>
+        <li>
+        <NavLink className="text-decoration-none" to="/Shop">Shop</NavLink>
+
+
         </li>
       </ul>
     </div>

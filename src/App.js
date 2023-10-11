@@ -16,6 +16,8 @@ import Checkout from './Pages/Checkout';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
 import Phone from './Pages/Phone';
+import Login from './Pages/Login';
+import Register from './Pages/Register';
 function App() {
   return (
     <div className="App">
@@ -25,13 +27,14 @@ function App() {
           {/* >>>>Superadmin panel>>>>> */}
           
         <Route exact path="/Phone" element={< Phone />}></Route>
+        <Route exact path="/Login" element={< Login />}></Route>
 
         <Route exact path="/tv" element={< Home1 />}></Route>
         <Route exact path="/Internet" element={< Home2 />}></Route>
         <Route exact path="/Bundles" element={< Home3 />}></Route>
         <Route exact path="/Home4" element={< Home4 />}></Route>
         <Route exact path="/Apps" element={< AboutUs />}></Route>
-        <Route exact path="/Movie" element={< Movie />}></Route>
+        <Route exact path="/SpeedFinder" element={< Movie />}></Route>
         <Route exact path="/MovieDetail" element={< MovieDetail />}></Route>
         <Route exact path="/Service" element={< Service />}></Route>
         <Route exact path="/ServiceDetail" element={< ServiceDetail />}></Route>
@@ -40,6 +43,8 @@ function App() {
         <Route exact path="/Checkout" element={<  Checkout />}></Route>
         <Route exact path="/ContactUs" element={<  Contact />}></Route>
         <Route exact path="/" element={<   Home />}></Route>
+        <Route exact path="/Register" element={<   Register />}></Route>
+
 
        
         

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom'
 export default function Footer() {
   return (
     <>
@@ -17,19 +17,18 @@ export default function Footer() {
           <div className="footer-widget footer-widget-about">
             {/* footer-widget-logo */}
             <a href="index-2.html" className="footer-widget-logo">
-              <img src="assets/images/resources/header-two-logo.png" alt="twoet-logo-two" />
+              <img src="assets/images/logo.png" alt="twoet-logo-two" />
             </a>
             {/* footer-widget-text */}
-            <p className="footer-widget-text">Sorem ipsum dolor sit amet consectetur. Conse laoreesy
-              condimentum sit vitae.
+            <p className="footer-widget-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis reprehenderit ipsum sunt a beatae provident similique possimus praesentium doloribus. Dolor nam at consequuntur iusto exercitationem, eaque nihil sint laudantium voluptates.
             </p>
             {/* footer-widget-social */}
-            <ul className="footer-widget-social">
+            {/* <ul className="footer-widget-social">
               <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
               <li><a href="#"><i className="fab fa-twitter" /></a></li>
               <li><a href="#"><i className="fab fa-linkedin-in" /></a></li>
               <li><a href="#"><i className="fab fa-instagram" /></a></li>
-            </ul>
+            </ul> */}
           </div>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInRight animated" data-wow-duration="1500ms" data-wow-delay="150ms">
@@ -40,22 +39,27 @@ export default function Footer() {
             {/* footer-widget-links-details */}
             <ul className="footer-widget-links-details">
               <li>
-                <a href="about.html">About</a>
+              <NavLink className="text-decoration-none" to="/TV">TV</NavLink>
               </li>
               <li>
-                <a href="services.html">Our Services</a>
+              <NavLink className="text-decoration-none" to="/Internet">Internet</NavLink>
+
+              </li>
+              <li>       
+                     <NavLink className="text-decoration-none" to="/Phone">Phone</NavLink>
+
               </li>
               <li>
-                <a href="#">Clients Say</a>
+              <NavLink className="text-decoration-none" to="/Bundles">Bundles</NavLink>
+
               </li>
               <li>
-                <a href="#">Company History</a>
+              <NavLink className="text-decoration-none" to="/Shop">Shop</NavLink>
+
               </li>
               <li>
-                <a href="blog.html">Latest News</a>
-              </li>
-              <li>
-                <a href="contact.html">Contact Us</a>
+              <li><NavLink to="/ContactUs">ContactUs</NavLink></li>
+
               </li>
             </ul>
           </div>
@@ -105,12 +109,12 @@ export default function Footer() {
         </a>
         {/* copyright */}
         <div className="copyright">
-          <p>Copyright @2023,
-            <a href="#">Twoet</a> All Rights Reserved
+          <p>Copyright @WebLink 2033 and Design by HnH Soft Tect Solutions
+            <a href="#">WebLink</a> All Rights Reserved
           </p>
         </div>
         {/* footer-widget-two-menu-two */}
-        <ul className="footer-widget-two-menu-two list-unstyled">
+        {/* <ul className="footer-widget-two-menu-two list-unstyled">
           <li>
             <a href="#">Terms Of Use</a>
           </li>
@@ -120,7 +124,7 @@ export default function Footer() {
           <li>
             <a href="faq.html">FAQs</a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   </div>

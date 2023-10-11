@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../component/Header'
+import HomeSection4 from '../component/Home/HomeSection4'
 import MovieSection1 from '../component/Movie/MovieSection1'
 import MovieSection2 from '../component/Movie/MovieSection2'
 import MovieSection3 from '../component/Movie/MovieSection3'
@@ -23,6 +24,7 @@ export default function Movie() {
         <main class="site-main">
           <MovieSection1/>
           <MovieSection9/>
+          <HomeSection4/>
           {/* <MovieSection2/> */}
           {/* <MovieSection3/>
           <MovieSection4/>
